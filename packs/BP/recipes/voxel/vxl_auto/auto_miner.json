@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_auto:auto_miner_placer_default"
+		},
+		"tags": [
+			"vxl_core_artisan_table"
+		],
+		"pattern": [
+			"DBD",
+			"ILI",
+			"RMR"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_block"
+			},
+			"M": {
+				"item": "minecraft:minecart"
+			},
+			"L": {
+				"item": "minecraft:lever"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"R": {
+				"item": "minecraft:redstone_block"
+			},
+			"B": {
+				"item": "minecraft:stonecutter_block"
+			}
+		},
+		"unlock": [
+			{
+				"item": "vxl_core:artisan_table"
+			}
+		],
+		"result": {
+			"item": "vxl_auto:auto_miner_placer_default",
+			"data": 0
+		}
+	}
+}

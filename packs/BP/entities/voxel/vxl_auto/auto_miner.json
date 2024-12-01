@@ -1,0 +1,103 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "vxl_auto:auto_miner",
+			"is_spawnable": false,"is_summonable": false,
+			"properties": {
+				"vxl:direction": { 
+				    "type": "enum", 
+				    "values": ["north", "south", "east", "west"], 
+				    "default": "north"
+				},
+				"vxl:powered": {"type": "bool", "default": false, "client_sync": true},
+				"vxl:color":{"type":"int","range":[0, 14],"default":0, "client_sync": true},
+				"vxl:upgrade_level":{"type":"int","range":[0, 5],"default":0, "client_sync": true},
+				"vxl:can_pickup_items": {"type": "bool", "default": false}
+			}
+		},
+		"components": {
+			"minecraft:knockback_resistance": {"value": 1.0},
+			"minecraft:jump.static": {},
+			"minecraft:movement.generic": {},
+			"minecraft:movement": {"value": 0.32},
+			"minecraft:underwater_movement": {"value": 0.18},
+			"minecraft:navigation.generic": {"can_jump": true,"can_walk": true},
+			"minecraft:health": {"value": 100,"max": 100},
+			"minecraft:collision_box": {"width": 0.5,"height": 0.5},
+			"minecraft:physics": {"has_gravity": true,"has_collision": true},
+			"minecraft:pushable": {"is_pushable": false,"is_pushable_by_piston": true},
+			"minecraft:type_family": {"family": ["vxl_auto_miner"]},
+			"minecraft:persistent": {},"minecraft:fire_immune": {},
+			"minecraft:damage_sensor": {"triggers": {"cause": "all","deals_damage": false}},
+			"minecraft:tick_world":{"radius": 6, "never_despawn": true,"distance_to_players": 2147483647},
+			"minecraft:variable_max_auto_step": {
+                "base_value": 1.0625,
+                "jump_prevented_value": 0.5625
+            },
+			"minecraft:interact": {
+				"interactions": [
+				  	{
+						"on_interact":{
+							"filters": { "test": "is_owner", "subject": "other", "value": true }
+						},
+						"cooldown":0.1,"use_item":false
+				  	}
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,"time": 0.0,
+				"time_down_event":{"event":"main_loop","target":"self"}
+			}
+		},
+		"events": {
+			"main_loop": {
+				"sequence": [
+					{
+						"filters": {"test":"enum_property", "domain":"vxl:direction", "value":"north"},
+						"queue_command": {"command": "tp @s ~ ~ ~ facing ~ ~ ~1",     "target": "self"}
+					},
+					{
+						"filters": {"test":"enum_property", "domain":"vxl:direction", "value":"south"},
+						"queue_command": {"command": "tp @s ~ ~ ~ facing ~ ~ ~-1",    "target": "self"}
+					},
+					{
+						"filters": {"test":"enum_property", "domain":"vxl:direction", "value":"east"},
+						"queue_command": {"command": "tp @s ~ ~ ~ facing ~1 ~ ~",     "target": "self"}
+					},
+					{
+						"filters": {"test":"enum_property", "domain":"vxl:direction", "value":"west"},
+						"queue_command": {"command": "tp @s ~ ~ ~ facing ~-1 ~ ~",    "target": "self"}
+					},
+					{
+						"queue_command": {"command": "tp @s ~ ~-0.25 ~ ~ ~ true","target": "self"}
+					},
+					{
+						"filters": {
+							"all_of": [
+								{"test":"bool_property", "domain":"vxl:powered"},
+								{"test":"bool_property", "domain":"vxl:can_pickup_items"}
+							]
+						},
+						"queue_command": {"command": "execute as @e[type=item,r=6] at @s run tp @s ^ ^ ^1 facing @e[family=vxl_auto_miner,r=6]","target": "self"}
+					}
+				]
+			},
+			"color_default"   :{"set_property": {"vxl:color": 0  }},
+			"color_black"     :{"set_property": {"vxl:color": 1  }},
+			"color_blue"      :{"set_property": {"vxl:color": 2  }},
+			"color_brown"     :{"set_property": {"vxl:color": 3  }},
+			"color_cyan"      :{"set_property": {"vxl:color": 4  }},
+			"color_green"     :{"set_property": {"vxl:color": 5  }},
+			"color_light_blue":{"set_property": {"vxl:color": 6  }},
+			"color_lime"      :{"set_property": {"vxl:color": 7  }},
+			"color_magenta"   :{"set_property": {"vxl:color": 8  }},
+			"color_orange"    :{"set_property": {"vxl:color": 9  }},
+			"color_pink"      :{"set_property": {"vxl:color": 10 }},
+			"color_purple"    :{"set_property": {"vxl:color": 11 }},
+			"color_red"       :{"set_property": {"vxl:color": 12 }},
+			"color_yellow"    :{"set_property": {"vxl:color": 13 }},
+			"color_rainbow"   :{"set_property": {"vxl:color": 14 }}
+		}
+	}
+}

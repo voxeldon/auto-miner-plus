@@ -1,0 +1,61 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.vxl_auto.item_pump_powered": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"ring00": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, -1, 0],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"ring02": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 1, 0],
+						"1.04": [0, 0, 0]
+					}
+				},
+				"box": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.52": [1, 0.8, 1],
+						"1.04": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.vxl_auto.item_pump_icon": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [-135.10922, -82.93343, -315.10923],
+					"scale": 0.65
+				}
+			}
+		},
+		"animation.vxl_auto.icon": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"rightarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 360, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0.5, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [0, -0.5, 0],
+						"1.0": [0, 0, 0]
+					},
+					"scale": 0.65
+				}
+			}
+		}
+	}
+}

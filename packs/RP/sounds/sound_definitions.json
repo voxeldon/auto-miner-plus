@@ -1,0 +1,28 @@
+{
+   "format_version": "1.19.50",
+   "sound_definitions": {
+      "vxl_auto.interact" : {
+         "category" : "neutral",
+         "sounds" : [
+            "sounds/voxel/vxl_auto/interact0",
+            "sounds/voxel/vxl_auto/interact1",
+            "sounds/voxel/vxl_auto/interact2"
+         ]
+      },
+      "vxl_auto.upgrade" : {
+         "category" : "neutral",
+         "sounds" : [
+            "sounds/voxel/vxl_auto/upgrade0",
+            "sounds/voxel/vxl_auto/upgrade1",
+            "sounds/voxel/vxl_auto/upgrade2",
+            "sounds/voxel/vxl_auto/upgrade3"
+         ]
+      },
+      "vxl_auto.error" : {
+         "category" : "neutral",
+         "sounds" : [
+            "sounds/voxel/vxl_auto/error"
+         ]
+      }
+   }
+}

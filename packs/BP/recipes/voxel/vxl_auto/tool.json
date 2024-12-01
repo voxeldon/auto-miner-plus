@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_auto:tool"
+		},
+		"tags": [
+			"vxl_core_artisan_table"
+		],
+		"pattern": [
+			"I##",
+			"#G#",
+			"$#$"
+		],
+		"key": {
+			"$": {
+				"item": "minecraft:polished_blackstone_button"
+			},
+			"#": {
+				"item": "minecraft:smooth_stone"
+			},
+			"I": {
+				"item": "minecraft:redstone_torch"
+			},
+			"G": {
+				"item": "minecraft:glass_pane"
+			}
+		},
+		"unlock": [
+			{
+				"item": "vxl_core:artisan_table"
+			}
+		],
+		"result": {
+			"item": "vxl_auto:tool",
+			"data": 0
+		}
+	}
+}

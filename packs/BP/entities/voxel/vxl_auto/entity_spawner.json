@@ -1,0 +1,190 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "vxl_auto:entity_spawner",
+			"is_spawnable": false,"is_summonable": true,
+			"properties": {
+				"vxl:color":{"type":"int","range":[0, 14],"default":0},
+				"vxl:type":{"type":"int","range":[0, 1],"default":0}
+			}
+		},
+		"component_groups":{
+			"set_item_pump": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:item_pump","delay": 0.1,"keep_owner": true}
+			},
+			"set_default": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_default>","delay": 0.1,"keep_owner": true}
+			},
+			"set_black": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_black>","delay": 0.1,"keep_owner": true}
+			},
+			"set_blue": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_blue>","delay": 0.1,"keep_owner": true}
+			},
+			"set_brown": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_brown>","delay": 0.1,"keep_owner": true}
+			},
+			"set_cyan": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_cyan>","delay": 0.1,"keep_owner": true}
+			},
+			"set_green": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_green>","delay": 0.1,"keep_owner": true}
+			},
+			"set_light_blue": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_light_blue>","delay": 0.1,"keep_owner": true}
+			},
+			"set_lime": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_lime>","delay": 0.1,"keep_owner": true}
+			},
+			"set_magenta": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_magenta>","delay": 0.1,"keep_owner": true}
+			},
+			"set_orange": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_orange>","delay": 0.1,"keep_owner": true}
+			},
+			"set_pink": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_pink>","delay": 0.1,"keep_owner": true}
+			},
+			"set_purple": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_purple>","delay": 0.1,"keep_owner": true}
+			},
+			"set_red": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_red>","delay": 0.1,"keep_owner": true}
+			},
+			"set_yellow": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_yellow>","delay": 0.1,"keep_owner": true}
+			},
+			"set_rainbow": {
+				"minecraft:transformation": {
+				"into": "vxl_auto:auto_miner<color_rainbow>","delay": 0.1,"keep_owner": true}
+			}
+		},
+		"components": {
+			"minecraft:projectile": {
+                "power": 0.0,"gravity": 0.0,"inertia": 0,"anchor": 0,
+                "uncertainty_base": 0.0, "offset": [ 0, 0.0, 0],
+                "semi_random_diff_damage": false, "reflect_on_hurt": false
+            },
+			"minecraft:health": {"value": 100,"max": 100},
+			"minecraft:collision_box": {"width": 0.0,"height": 0.0},
+			"minecraft:physics": {"has_gravity": false,"has_collision": false},
+			"minecraft:pushable": {"is_pushable": false,"is_pushable_by_piston": false},
+			"minecraft:damage_sensor": {"triggers": {"cause": "all","deals_damage": false}},
+			"minecraft:timer": {
+				"looping": true,"time": 0.1,
+				"time_down_event":{"event":"timeout","target":"self"}
+			}
+		},
+		"events": {
+			"color_default"   :{"set_property": {"vxl:color": 0  }},
+			"color_black"     :{"set_property": {"vxl:color": 1  }},
+			"color_blue"      :{"set_property": {"vxl:color": 2  }},
+			"color_brown"     :{"set_property": {"vxl:color": 3  }},
+			"color_cyan"      :{"set_property": {"vxl:color": 4  }},
+			"color_green"     :{"set_property": {"vxl:color": 5  }},
+			"color_light_blue":{"set_property": {"vxl:color": 6  }},
+			"color_lime"      :{"set_property": {"vxl:color": 7  }},
+			"color_magenta"   :{"set_property": {"vxl:color": 8  }},
+			"color_orange"    :{"set_property": {"vxl:color": 9  }},
+			"color_pink"      :{"set_property": {"vxl:color": 10 }},
+			"color_purple"    :{"set_property": {"vxl:color": 11 }},
+			"color_red"       :{"set_property": {"vxl:color": 12 }},
+			"color_yellow"    :{"set_property": {"vxl:color": 13 }},
+			"color_rainbow"   :{"set_property": {"vxl:color": 14 }},
+			"type_item_pump"  :{"set_property": {"vxl:type" : 1 }},
+			"timeout": {
+				"sequence": [
+					{
+						"filters": {"test":"int_property", "domain":"vxl:type", "value":0},
+						"sequence": [
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":0},
+								"add": {"component_groups": [ "set_default" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":1},
+								"add": {"component_groups": [ "set_black" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":2},
+								"add": {"component_groups": [ "set_blue" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":3},
+								"add": {"component_groups": [ "set_brown" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":4},
+								"add": {"component_groups": [ "set_cyan" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":5},
+								"add": {"component_groups": [ "set_green" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":6},
+								"add": {"component_groups": [ "set_light_blue" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":7},
+								"add": {"component_groups": [ "set_lime" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":8},
+								"add": {"component_groups": [ "set_magenta" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":9},
+								"add": {"component_groups": [ "set_orange" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":10},
+								"add": {"component_groups": [ "set_pink" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":11},
+								"add": {"component_groups": [ "set_purple" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":12},
+								"add": {"component_groups": [ "set_red" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":13},
+								"add": {"component_groups": [ "set_yellow" ]}
+							},
+							{
+								"filters": {"test":"int_property", "domain":"vxl:color", "value":14},
+								"add": {"component_groups": [ "set_rainbow" ]}
+							}
+						]
+					},
+					{
+						"filters": {"test":"int_property", "domain":"vxl:type", "value":1},
+						"sequence": [
+							{
+								"add": {"component_groups": [ "set_item_pump" ]}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

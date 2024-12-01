@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.vxl_auto.root": {
+            "initial_state": "root.filter",
+            "states": {
+                "icon_controller": {
+                    "animations": [
+                        "vxl_auto.marker.controller"
+                    ],
+                    "transitions": [
+                        {
+                            "root.filter": "query.variant == 0"
+                        }
+                    ]
+                },
+                "root.filter": {
+                    "transitions": [
+                        {
+                            "icon_controller": "query.variant > 0"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

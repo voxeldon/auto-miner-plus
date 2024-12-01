@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_auto:item_pump"
+		},
+		"tags": [
+			"vxl_core_artisan_table"
+		],
+		"pattern": [
+			"DID",
+			"DHD",
+			"DRD"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_block"
+			},
+			"R": {
+				"item": "minecraft:redstone_block"
+			},
+			"H": {
+				"item": "minecraft:hopper"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"unlock": [
+			{
+				"item": "vxl_core:artisan_table"
+			}
+		],
+		"result": {
+			"item": "vxl_auto:item_pump",
+			"data": 0
+		}
+	}
+}

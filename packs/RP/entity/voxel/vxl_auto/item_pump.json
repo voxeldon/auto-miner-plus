@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vxl_auto:item_pump",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/voxel/vxl_auto/entity/item_pump"
+			},
+			"geometry": {
+				"default": "geometry.vxl_auto.item_pump"
+			},
+			"scripts":{
+				"animate": ["item_pump.root", "icon"],
+                "pre_animation": [
+					"v.is_powered = q.property('vxl:powered');"
+				]
+			},
+			"animations":{
+				"icon": "animation.vxl_auto.item_pump_icon",
+				"powered": "animation.vxl_auto.item_pump_powered",
+				"item_pump.root": "controller.animation.vxl_auto.item_pump.root"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"enable_attachables": true
+			
+		}
+	}
+}

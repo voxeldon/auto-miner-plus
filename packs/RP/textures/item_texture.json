@@ -1,0 +1,54 @@
+{
+	"resource_pack_name": "vxl_auto",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"vxl_auto_auto_miner_default": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/default"
+		},
+		"vxl_auto_auto_miner_black": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/black"
+		},
+		"vxl_auto_auto_miner_blue": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/blue"
+		},
+		"vxl_auto_auto_miner_brown": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/brown"
+		},
+		"vxl_auto_auto_miner_cyan": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/cyan"
+		},
+		"vxl_auto_auto_miner_green": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/green"
+		},
+		"vxl_auto_auto_miner_light_blue": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/light_blue"
+		},
+		"vxl_auto_auto_miner_lime": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/lime"
+		},
+		"vxl_auto_auto_miner_magenta": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/magenta"
+		},
+		"vxl_auto_auto_miner_orange": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/orange"
+		},
+		"vxl_auto_auto_miner_pink": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/pink"
+		},
+		"vxl_auto_auto_miner_purple": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/purple"
+		},
+		"vxl_auto_auto_miner_red": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/red"
+		},
+		"vxl_auto_auto_miner_yellow": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/yellow"
+		},
+		"vxl_auto_auto_miner_rainbow": {
+			"textures": "textures/voxel/vxl_auto/items/auto_miner_spawn_egg/rainbow"
+		},
+		"vxl_auto_tool": {
+			"textures": "textures/voxel/vxl_auto/items/tool"
+		}
+	}
+}

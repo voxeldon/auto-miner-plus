@@ -1,0 +1,16 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.vxl_auto.item_pump.root": {
+            "initial_state": "await",
+            "states": {
+                "await":{"transitions":[{"active":"v.is_powered"}],"blend_transition":1.0},
+                "active": {
+                   "animations":["powered"],
+                    "blend_transition": 1.0,
+                    "transitions":[{"await":"!v.is_powered"}]
+                }
+            }
+        }
+    }
+}

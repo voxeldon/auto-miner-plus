@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vxl_auto:item_pump",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.chest"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"vxl:placed": [false,true]
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["vxl:interact_with_pump"],
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 12, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 12, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 999},
+			"minecraft:material_instances": {"*": {"texture": "vxl_auto_item_pump","render_method": "alpha_test"}},
+			"minecraft:map_color": "#e5a100",
+			"minecraft:geometry": "geometry.vxl_auto.item_pump"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('vxl:placed')",
+				"components": {
+					"minecraft:geometry": "minecraft:geometry.full_block",
+					"minecraft:material_instances": {"*": {"texture": "vxl_core_null","render_method": "alpha_test"}}
+				}
+			}
+		]
+	}
+}

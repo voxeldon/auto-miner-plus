@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.vxl_auto.item_pump",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "box",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [4, 2, -6], "size": [2, 8, 12], "uv": [16, 8]},
+						{"origin": [-4, 2, 4], "size": [8, 8, 2], "uv": [48, 18]},
+						{"origin": [-6, 2, -6], "size": [2, 8, 12], "uv": [0, 0]},
+						{"origin": [-4, 2, -6], "size": [8, 8, 2], "uv": [48, 30]}
+					]
+				},
+				{
+					"name": "ring02",
+					"parent": "root",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-8, 0, 6], "size": [16, 2, 2], "uv": [48, 14]},
+						{"origin": [6, 0, -6], "size": [2, 2, 12], "uv": [32, 30]},
+						{"origin": [-8, 0, -8], "size": [16, 2, 2], "uv": [48, 8]},
+						{"origin": [-8, 0, -6], "size": [2, 2, 12], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "ring01",
+					"parent": "root",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-8, 5, -6], "size": [2, 2, 12], "uv": [32, 0]},
+						{"origin": [-8, 5, -8], "size": [16, 2, 2], "uv": [48, 4]},
+						{"origin": [6, 5, -6], "size": [2, 2, 12], "uv": [32, 16]},
+						{"origin": [-8, 5, 6], "size": [16, 2, 2], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "ring00",
+					"parent": "root",
+					"pivot": [0, 11, 0],
+					"cubes": [
+						{"origin": [-8, 10, -6], "size": [2, 2, 12], "uv": [0, 20]},
+						{"origin": [-8, 10, 6], "size": [16, 2, 2], "uv": [28, 44]},
+						{"origin": [6, 10, -6], "size": [2, 2, 12], "uv": [16, 28]},
+						{"origin": [-8, 10, -8], "size": [16, 2, 2], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "rightarm",
+					"parent": "root",
+					"pivot": [0, 6, -8]
+				},
+				{
+					"name": "rightitem",
+					"parent": "rightarm",
+					"pivot": [-3, 6, -8]
+				}
+			]
+		}
+	]
+}

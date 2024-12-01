@@ -1,0 +1,17 @@
+### v-1.0.0
+- Refactored codebase sceme to match current minecraft addon format
+- Renamed pack identifier from "lab" to "vxl_auto"
+- Renamed "Dark Green" Auto Miner and associated files to "Green"
+- Renamed "Green" Auto Miner and associated files to "Lime"
+- Removed all existing entity behaviors, server animations, & server controllers
+- Refactored all existing systems to use stable script API
+- Renamed "Auto-Pump(auto_pump)" to "Item Pump(item_pump)"
+- Item Pump is now starts and is stored as a block type
+- Removed legacy animations from codebase 
+- Removed sound animation controller 
+
+Relivant new features
+- Autominer now snaps to the block grid when placing or rotating
+- Autominer can now break blocks below y level -40
+- Autominer will no longer break bedrock
+- Autominer now has a Copper upgrade state

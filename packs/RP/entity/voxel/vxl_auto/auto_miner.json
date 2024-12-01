@@ -1,0 +1,60 @@
+  {
+	"format_version": "1.21.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "vxl_auto:auto_miner",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"frame_default"   : "textures/voxel/vxl_auto/entity/auto_miner/frame/default",
+				"frame_black"     : "textures/voxel/vxl_auto/entity/auto_miner/frame/black",
+				"frame_blue"      : "textures/voxel/vxl_auto/entity/auto_miner/frame/blue",
+				"frame_brown"     : "textures/voxel/vxl_auto/entity/auto_miner/frame/brown",
+				"frame_cyan"      : "textures/voxel/vxl_auto/entity/auto_miner/frame/cyan",
+				"frame_green"     : "textures/voxel/vxl_auto/entity/auto_miner/frame/green",
+				"frame_lime"      : "textures/voxel/vxl_auto/entity/auto_miner/frame/lime",
+				"frame_light_blue": "textures/voxel/vxl_auto/entity/auto_miner/frame/light_blue",
+				"frame_magenta"   : "textures/voxel/vxl_auto/entity/auto_miner/frame/magenta",
+				"frame_orange"    : "textures/voxel/vxl_auto/entity/auto_miner/frame/orange",
+				"frame_pink"      : "textures/voxel/vxl_auto/entity/auto_miner/frame/pink",
+				"frame_purple"    : "textures/voxel/vxl_auto/entity/auto_miner/frame/purple",
+				"frame_red"       : "textures/voxel/vxl_auto/entity/auto_miner/frame/red",
+				"frame_yellow"    : "textures/voxel/vxl_auto/entity/auto_miner/frame/yellow",
+				"frame_rainbow"   : "textures/voxel/vxl_auto/entity/auto_miner/frame/rainbow",
+				"bit_iron"        : "textures/voxel/vxl_auto/entity/auto_miner/drill_bits/iron",
+				"bit_copper"      : "textures/voxel/vxl_auto/entity/auto_miner/drill_bits/copper",
+				"bit_gold"        : "textures/voxel/vxl_auto/entity/auto_miner/drill_bits/gold",
+				"bit_diamond"     : "textures/voxel/vxl_auto/entity/auto_miner/drill_bits/diamond",
+				"bit_netherite"   : "textures/voxel/vxl_auto/entity/auto_miner/drill_bits/netherite",
+				"treads_deafult"  : "textures/voxel/vxl_auto/entity/auto_miner/treads"
+			},
+			"geometry": {
+				"default": "geometry.vxl_auto.auto_miner"
+			},
+			"scripts":{
+				"pre_animation": [
+					"v.color = q.property('vxl:color');",
+					"v.is_powered = q.property('vxl:powered');",
+					"v.upgrade_level = q.property('vxl:upgrade_level');"
+				],
+				"animate": [
+					"look_at_target","block_grid",
+					{"walk": "q.ground_speed >= 0.0 && v.is_powered"},
+					{"dig": "v.is_powered"} 
+				]
+			},
+			"animations":{
+				"walk": "animation.miner.walk",
+				"dig": "animation.miner.dig",
+				"look_at_target": "animation.miner.look_at_target",
+				"block_grid": "animation.vxl_auto.roate_miner"
+			},
+			"render_controllers": [
+				"controller.render.vxl_auto.auto_miner.frame",
+				"controller.render.vxl_auto.auto_miner.bit",
+				"controller.render.vxl_auto.auto_miner.treads"
+			]
+		}
+	}
+}

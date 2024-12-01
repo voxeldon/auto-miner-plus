@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "vxl_auto:item_pump",
+			"is_spawnable": false,"is_summonable": false,
+			"properties": {
+				"vxl:powered": {"type": "bool", "default": false, "client_sync": true},
+				"vxl:filter_type":{"type":"int","range":[0, 14],"default":0, "client_sync": true}
+			}
+		},
+		"component_groups": {
+			"remove_self": {"minecraft:instant_despawn": {}}
+		},
+		"components": {
+			"minecraft:nameable": {
+				"always_show": true
+			},
+			"minecraft:knockback_resistance": {"value": 1.0},
+			"minecraft:health": {"value": 100,"max": 100},
+			"minecraft:collision_box": {"width": 0.0,"height": 0.0},
+			"minecraft:physics": {"has_gravity": false,"has_collision": false},
+			"minecraft:pushable": {"is_pushable": false,"is_pushable_by_piston": false},
+			"minecraft:type_family": {"family": ["vxl_auto_item_pump"]},
+			"minecraft:persistent": {},"minecraft:fire_immune": {},
+			"minecraft:damage_sensor": {"triggers": {"cause": "all","deals_damage": false}},
+			"minecraft:interact": {
+				"interactions": [
+				  	{
+						"on_interact":{
+							"filters": { "test": "is_owner", "subject": "other", "value": true },
+							"event":"on_interact","target":"self"
+						},
+						"cooldown":0.1,"use_item":false
+				  	}
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,"time": 0.0,
+				"time_down_event":{"event":"main_loop","target":"self"}
+			}
+		},
+		"events": {
+			"on_interact": {
+				"sequence": [
+					{"queue_command":{"command":"scriptevent spec:on_interact entity","target":"self"}},
+					{"queue_command":{"command":"scriptevent spec:on_interact player","target":"other"}}
+				]
+            },
+			"main_loop": {
+				"queue_command": {"command": "execute as @s at @s unless block ~ ~0.1 ~ vxl_auto:item_pump run event entity @s remove_self","target": "self"}
+			}, "remove_self":{"add":{"component_groups":["remove_self"]}}
+		}
+	}
+}

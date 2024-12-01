@@ -1,0 +1,29 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+action.interact.vxl_auto.interact=Interact
+tile.vxl_auto:item_pump.name=Item Pump
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Black Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Blue Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Brown Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Green Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Light Blue Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Pink Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Purple Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Red Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Yellow Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_spwm.author_name=Donthedev
+acm.vxl_auto.description=An autonomous robot companion to assist with mining and construction.
+acm.vxl_auto.allow_teleport=Allow players to teleport to Auto-Miners

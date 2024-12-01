@@ -1,0 +1,38 @@
+{
+	"format_version" : "1.10.0",
+	"animations" : {
+		"animation.vxl_auto.look_at_target" : {
+			"loop" : true,
+			"bones" : {
+				"head" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ 0.0, "query.target_y_rotation - this", 0.0 ]
+				}
+			}
+		},
+		"animation.vxl_auto.roate_block" : {
+			"loop" : true,
+			"bones" : {
+				"vxl_auto_pump" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation": [ 0, "-query.body_y_rotation + (Math.round(query.body_y_rotation / 90) * 90)", 0 ]
+				}
+			}
+		},
+		"animation.vxl_auto.roate_miner" : {
+			"loop" : false,
+			"bones" : {
+				"vxl_auto_miner" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation": [ 0, "-query.body_y_rotation + (Math.round(query.body_y_rotation / 90) * 90)", 0 ]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.vxl_auto.auto_miner.frame": {
+        "arrays": {
+          "textures": {
+            "Array.frame": [
+              "Texture.frame_default",
+              "Texture.frame_black",
+              "Texture.frame_blue",
+              "Texture.frame_brown",
+              "Texture.frame_cyan",
+              "Texture.frame_green",
+              "Texture.frame_light_blue",
+              "Texture.frame_lime",
+              "Texture.frame_magenta",
+              "Texture.frame_orange",
+              "Texture.frame_pink",
+              "Texture.frame_purple",
+              "Texture.frame_red",
+              "Texture.frame_yellow",
+              "Texture.frame_rainbow"
+            ]
+          }
+        },
+        "geometry": "Geometry.default",
+        "materials": [
+          { "*": "Material.default" }
+        ],
+        "textures": [
+          "Array.frame[v.color]"
+        ],
+        "is_hurt_color": {},
+        "on_fire_color": {}
+      },
+      "controller.render.vxl_auto.auto_miner.bit": {
+        "arrays": {
+          "textures": {
+            "Array.drill_bit": [ 
+              "Texture.bit_iron",
+              "Texture.bit_copper",
+              "Texture.bit_gold",
+              "Texture.bit_diamond",
+              "Texture.bit_netherite"
+            ]
+          }
+        },
+        "geometry": "Geometry.default",
+        "materials": [
+          { "*": "Material.default" }
+        ],
+        "textures": [
+          "Array.drill_bit[v.upgrade_level]"
+        ],
+        "is_hurt_color": {},
+        "on_fire_color": {}
+      },
+      "controller.render.vxl_auto.auto_miner.treads": {
+        "arrays": {
+          "textures": {
+            "Array.treads": [ 
+              "Texture.treads_deafult"
+            ]
+          }
+        },
+        "geometry": "Geometry.default",
+        "materials": [
+          { "*": "Material.default" }
+        ],
+        "textures": [
+          "Array.treads[query.is_alive || !query.is_alive ]"
+        ],
+        "is_hurt_color": {},
+        "on_fire_color": {}
+      }
+    }
+  }
+  
