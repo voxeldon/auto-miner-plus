@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Hantverksbord
+
+action.interact.vxl_auto.interact=Påverka varandra
+tile.vxl_auto:item_pump.name=Artikel Pump
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Svart Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Blå Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Brun Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Grön Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Ljusblå Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Rosa Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Lila Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Röd Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Gul Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=En autonom robotkompis som hjälper till med gruvdrift och konstruktion.
+acm.vxl_auto.allow_teleport=Tillåt spelare att teleportera till Auto-Miners
+
+vxl_auto.detachment_warning=är inte längre kopplad till en
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Välj en Auto-Miner
+vxl_auto.interface.button_back=Tillbaka
+vxl_auto.interface.modes=Speciallägen
+vxl_auto.interface.modes_body=Speciallägen
+vxl_auto.interface.pilot=Pilot Auto-Miner
+vxl_auto.interface.home_body_no_entry=Inga ägda Auto-Miners hittades
+vxl_auto.interface.selected_auto_miner_body=Välj ett alternativ
+vxl_auto.interface.selected_auto_miner_dimension_error=Du måste vara i samma dimension som den valda Auto-Miner för att använda dessa funktioner.
+vxl_auto.interface.turn_right=Sväng höger
+vxl_auto.interface.turn_left=Sväng vänster
+vxl_auto.interface.stop=Stoppa motorn
+vxl_auto.interface.start=Starta motorn
+vxl_auto.interface.exit_camera=Avsluta kamera
+vxl_auto.interface.recall=Återkallande
+vxl_auto.interface.teleport=Teleportera till
+vxl_auto.interface.start_build_bridge=Starta Bridge Chip
+vxl_auto.interface.stop_build_bridge=Stop Bridge Chip
+
+vxl_auto.interface.home_title_pump=Artikel-Pump-gränssnitt
+vxl_auto.interface.home_body_pump=Anslutningsalternativ
+vxl_auto.interface.home_body_no_entry_pump=§4Inga Hopper utrustade Auto-Miners hittades.
+vxl_auto.interface.selected_auto_body_connected=Ansluten
+vxl_auto.interface.selected_auto_body_route=Rutt
+vxl_auto.interface.button_back_pump=Tillbaka
+vxl_auto.interface.button_route=§2 Väg till pump
+vxl_auto.interface.button_unroute=§4Ta bort från pumpen
+
+
+vxl_auto.common_lang.plural=s
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Fel under uppkomsten av Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Unika skinn kan inte färgas.
+vxl_auto.common_lang.already_this_color=Auto-Miner har redan den här färgen.
+vxl_auto.common_lang.not_owner=Du äger inte denna autominer
+vxl_auto.common_lang.upgrade_equipped=Uppgradering utrustad.
+vxl_auto.common_lang.already_equipped=Denna uppgradering är redan utrustad.
+vxl_auto.common_lang.item_pump=Artikel-Pump
+vxl_auto.common_lang.cant_teleport_warning=§4Kan inte teleportera till Auto-Miner, osäker plats.

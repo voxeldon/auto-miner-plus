@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Käsityöläinen pöytä
+
+action.interact.vxl_auto.interact=Ole vuorovaikutuksessa
+tile.vxl_auto:item_pump.name=Tuote Pumppu
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Musta Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Sininen Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Ruskea Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Syaani Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Vihreä Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Vaaleansininen Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Oranssi Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Pinkki Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Violetti Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Punainen Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Keltainen Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Itsenäinen robottikumppani kaivostyössä ja rakentamisessa.
+acm.vxl_auto.allow_teleport=Salli pelaajien teleportata Auto-Minersiin
+
+vxl_auto.detachment_warning=ei ole enää liitetty an
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Valitse Auto-Miner
+vxl_auto.interface.button_back=Takaisin
+vxl_auto.interface.modes=Erikoistilat
+vxl_auto.interface.modes_body=Erikoistilat
+vxl_auto.interface.pilot=Pilot Auto-Miner
+vxl_auto.interface.home_body_no_entry=Omia Auto-Minereita ei löytynyt
+vxl_auto.interface.selected_auto_miner_body=Valitse vaihtoehto
+vxl_auto.interface.selected_auto_miner_dimension_error=Sinun on oltava samassa ulottuvuudessa kuin valitun Auto-Minerin, jotta voit käyttää näitä ominaisuuksia.
+vxl_auto.interface.turn_right=Käänny oikealle
+vxl_auto.interface.turn_left=Käänny vasemmalle
+vxl_auto.interface.stop=Pysäytä moottori
+vxl_auto.interface.start=Käynnistä moottori
+vxl_auto.interface.exit_camera=Poistu kamerasta
+vxl_auto.interface.recall=Muista
+vxl_auto.interface.teleport=Teleportoi kohteeseen
+vxl_auto.interface.start_build_bridge=Käynnistä Bridge Chip
+vxl_auto.interface.stop_build_bridge=Pysäytä Bridge Chip
+
+vxl_auto.interface.home_title_pump=Tuote-pumppuliitäntä
+vxl_auto.interface.home_body_pump=Yhteysasetukset
+vxl_auto.interface.home_body_no_entry_pump=§4 Hopperilla varustettuja Auto-Minereita ei löytynyt.
+vxl_auto.interface.selected_auto_body_connected=Yhdistetty
+vxl_auto.interface.selected_auto_body_route=Reitti
+vxl_auto.interface.button_back_pump=Takaisin
+vxl_auto.interface.button_route=§2Reitti pumppuun
+vxl_auto.interface.button_unroute=§4Poista reititys pumpusta
+
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Virhe Auto-Minerin luomisessa
+vxl_auto.common_lang.cant_dye_unique_skins=Ainutlaatuisia nahkoja ei voi värjätä.
+vxl_auto.common_lang.already_this_color=Auto-Miner on jo tämän värinen.
+vxl_auto.common_lang.not_owner=Et omista tätä autokaivostyötä
+vxl_auto.common_lang.upgrade_equipped=Päivitys varustettu.
+vxl_auto.common_lang.already_equipped=Tämä päivitys on jo varustettu.
+vxl_auto.common_lang.item_pump=Tuote-pumppu
+vxl_auto.common_lang.cant_teleport_warning=§4Ei voi teleportoida Auto-Mineriin, vaarallinen sijainti.

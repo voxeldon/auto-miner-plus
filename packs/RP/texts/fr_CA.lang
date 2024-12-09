@@ -1,0 +1,74 @@
+pack.name=Mineur automatique Plus
+pack.description=Mineur automatique v2.0.0
+
+tile.vxl_core:artisan_table.name=Table Artisanale
+
+action.interact.vxl_auto.interact=Interagir
+tile.vxl_auto:item_pump.name=Article Pompe
+entity.vxl_auto:auto_miner.name=Mineur automatique
+entity.vxl_auto:entity_spawner.name=Générateur de mineur automatique
+
+item.vxl_auto:tool=Gestionnaire d'auto-mineur
+
+item.vxl_auto:auto_miner_placer_default=Mineur automatique
+item.vxl_auto:auto_miner_placer_black=Mineur automatique noir
+item.vxl_auto:auto_miner_placer_blue=Mineur automatique bleu
+item.vxl_auto:auto_miner_placer_brown=Mineur automatique marron
+item.vxl_auto:auto_miner_placer_cyan=Mineur automatique cyan
+item.vxl_auto:auto_miner_placer_green=Mineur automatique vert
+item.vxl_auto:auto_miner_placer_light_blue=Mineur automatique bleu clair
+item.vxl_auto:auto_miner_placer_lime=Mineur automatique de chaux
+item.vxl_auto:auto_miner_placer_magenta=Mineur automatique magenta
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Mineur
+item.vxl_auto:auto_miner_placer_pink=Mineur automatique rose
+item.vxl_auto:auto_miner_placer_purple=Mineur automatique violet
+item.vxl_auto:auto_miner_placer_red=Mineur automatique rouge
+item.vxl_auto:auto_miner_placer_yellow=Mineur automatique jaune
+item.vxl_auto:auto_miner_placer_rainbow=Mineur automatique arc-en-ciel
+
+acm.vxl_auto.pack_name=Mineur automatique
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Un compagnon robot autonome pour aider à l'exploitation minière et à la construction.
+acm.vxl_auto.allow_teleport=Autoriser les joueurs à se téléporter vers les Auto-Miners
+
+vxl_auto.detachment_warning=n'est plus rattaché à un
+
+vxl_auto.interface.home_title=Gestionnaire d'auto-mineur
+vxl_auto.interface.home_body=Sélectionnez un mineur automatique
+vxl_auto.interface.button_back=Dos
+vxl_auto.interface.modes=Modes spéciaux
+vxl_auto.interface.modes_body=Modes spéciaux
+vxl_auto.interface.pilot=Pilote d'auto-mineur
+vxl_auto.interface.home_body_no_entry=Aucun mineur automatique détenu trouvé
+vxl_auto.interface.selected_auto_miner_body=Choisissez une option
+vxl_auto.interface.selected_auto_miner_dimension_error=Vous devez être dans la même dimension que l'Auto-Miner sélectionné pour utiliser ces fonctionnalités.
+vxl_auto.interface.turn_right=Tournez à droite
+vxl_auto.interface.turn_left=Tourner à gauche
+vxl_auto.interface.stop=Arrêter le moteur
+vxl_auto.interface.start=Démarrer le moteur
+vxl_auto.interface.exit_camera=Quitter la caméra
+vxl_auto.interface.recall=Rappel
+vxl_auto.interface.teleport=Téléportation vers
+vxl_auto.interface.start_build_bridge=Démarrer la puce de pont
+vxl_auto.interface.stop_build_bridge=Puce de pont d'arrêt
+
+vxl_auto.interface.home_title_pump=Interface article-pompe
+vxl_auto.interface.home_body_pump=Options de connexion
+vxl_auto.interface.home_body_no_entry_pump=§4Aucun auto-mineur équipé d'une trémie n'a été trouvé.
+vxl_auto.interface.selected_auto_body_connected=Connecté
+vxl_auto.interface.selected_auto_body_route=Itinéraire
+vxl_auto.interface.button_back_pump=Dos
+vxl_auto.interface.button_route=§2Itinéraire vers la pompe
+vxl_auto.interface.button_unroute=§4Dérouter de la pompe
+
+
+vxl_auto.common_lang.plural=c'est
+vxl_auto.common_lang.auto_miner=Mineur automatique
+vxl_auto.common_lang.spawn_error=Erreur lors de la génération d'Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Les peaux uniques ne peuvent pas être teintes.
+vxl_auto.common_lang.already_this_color=Auto-Miner est déjà de cette couleur.
+vxl_auto.common_lang.not_owner=Vous ne possédez pas cet auto-mineur
+vxl_auto.common_lang.upgrade_equipped=Mise à niveau équipée.
+vxl_auto.common_lang.already_equipped=Cette mise à niveau est déjà équipée.
+vxl_auto.common_lang.item_pump=Article-Pompe
+vxl_auto.common_lang.cant_teleport_warning=§4Impossible de se téléporter vers Auto-Miner, emplacement dangereux.

@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Τραπέζι χειροτεχνίας
+
+action.interact.vxl_auto.interact=Αλληλεπιδρώ
+tile.vxl_auto:item_pump.name=Αντικείμενο Αντλία
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Black Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Blue Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Καφέ Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Green Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Ανοιχτό μπλε Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Pink Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Purple Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Red Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Κίτρινο Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_auto.author_name=Ο Ντοντέντεφ
+acm.vxl_auto.description=Ένας αυτόνομος σύντροφος ρομπότ που βοηθά στην εξόρυξη και την κατασκευή.
+acm.vxl_auto.allow_teleport=Επιτρέψτε στους παίκτες να τηλεμεταφέρονται σε Auto-Miners
+
+vxl_auto.detachment_warning=δεν είναι πλέον προσαρτημένο σε ένα
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Επιλέξτε ένα Auto-Miner
+vxl_auto.interface.button_back=Πίσω
+vxl_auto.interface.modes=Ειδικοί τρόποι λειτουργίας
+vxl_auto.interface.modes_body=Ειδικοί τρόποι λειτουργίας
+vxl_auto.interface.pilot=Pilot Auto-Miner
+vxl_auto.interface.home_body_no_entry=Δεν βρέθηκαν ιδιόκτητα Auto-Miners
+vxl_auto.interface.selected_auto_miner_body=Επιλέξτε μια επιλογή
+vxl_auto.interface.selected_auto_miner_dimension_error=Πρέπει να είστε στην ίδια διάσταση με το επιλεγμένο Auto-Miner για να χρησιμοποιήσετε αυτές τις δυνατότητες.
+vxl_auto.interface.turn_right=Στρίψτε δεξιά
+vxl_auto.interface.turn_left=Στρίψτε Αριστερά
+vxl_auto.interface.stop=Stop Engine
+vxl_auto.interface.start=Εκκινήστε τον κινητήρα
+vxl_auto.interface.exit_camera=Έξοδος από την κάμερα
+vxl_auto.interface.recall=Ανάκληση
+vxl_auto.interface.teleport=Τηλεμεταφορά σε
+vxl_auto.interface.start_build_bridge=Ξεκινήστε το Bridge Chip
+vxl_auto.interface.stop_build_bridge=Stop Bridge Chip
+
+vxl_auto.interface.home_title_pump=Διασύνδεση αντικειμένου-αντλίας
+vxl_auto.interface.home_body_pump=Επιλογές σύνδεσης
+vxl_auto.interface.home_body_no_entry_pump=§4Δεν βρέθηκαν Auto-Miners εξοπλισμένα με Hopper.
+vxl_auto.interface.selected_auto_body_connected=Συνδεδεμένος
+vxl_auto.interface.selected_auto_body_route=Διαδρομή
+vxl_auto.interface.button_back_pump=Πίσω
+vxl_auto.interface.button_route=§2 Διαδρομή προς αντλία
+vxl_auto.interface.button_unroute=§4Κατάργηση διαδρομής από την αντλία
+
+
+vxl_auto.common_lang.plural='μικρό
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Σφάλμα αναπαραγωγής Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Τα μοναδικά δέρματα δεν μπορούν να βαφτούν.
+vxl_auto.common_lang.already_this_color=Το Auto-Miner είναι ήδη αυτό το χρώμα.
+vxl_auto.common_lang.not_owner=Δεν σας ανήκει αυτό το auto-miner
+vxl_auto.common_lang.upgrade_equipped=Εξοπλισμός αναβάθμισης.
+vxl_auto.common_lang.already_equipped=Αυτή η αναβάθμιση είναι ήδη εξοπλισμένη.
+vxl_auto.common_lang.item_pump=Είδος-Αντλία
+vxl_auto.common_lang.cant_teleport_warning=§4 Δεν είναι δυνατή η τηλεμεταφορά σε Auto-Miner, Μη ασφαλής τοποθεσία.

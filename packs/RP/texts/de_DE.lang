@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Handwerkertisch
+
+action.interact.vxl_auto.interact=Interagieren
+tile.vxl_auto:item_pump.name=Artikel Pumpe
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner-Spawner
+
+item.vxl_auto:tool=Auto-Miner-Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Schwarzer Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Blauer Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Brown Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Grüner Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Hellblauer Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Rosa Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Lila Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Roter Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Gelber Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Ein autonomer Roboterbegleiter zur Unterstützung im Bergbau und im Bauwesen.
+acm.vxl_auto.allow_teleport=Erlauben Sie Spielern, sich zu Auto-Minern zu teleportieren
+
+vxl_auto.detachment_warning=ist nicht mehr an eine gebunden
+
+vxl_auto.interface.home_title=Auto-Miner-Manager
+vxl_auto.interface.home_body=Wählen Sie einen Auto-Miner aus
+vxl_auto.interface.button_back=Zurück
+vxl_auto.interface.modes=Spezialmodi
+vxl_auto.interface.modes_body=Spezialmodi
+vxl_auto.interface.pilot=Pilot-Auto-Miner
+vxl_auto.interface.home_body_no_entry=Keine eigenen Auto-Miner gefunden
+vxl_auto.interface.selected_auto_miner_body=Wählen Sie eine Option
+vxl_auto.interface.selected_auto_miner_dimension_error=Um diese Funktionen nutzen zu können, müssen Sie sich in derselben Dimension wie der ausgewählte Auto-Miner befinden.
+vxl_auto.interface.turn_right=Biegen Sie rechts ab
+vxl_auto.interface.turn_left=Biegen Sie links ab
+vxl_auto.interface.stop=Stoppen Sie den Motor
+vxl_auto.interface.start=Starten Sie den Motor
+vxl_auto.interface.exit_camera=Kamera verlassen
+vxl_auto.interface.recall=Abrufen
+vxl_auto.interface.teleport=Teleportieren zu
+vxl_auto.interface.start_build_bridge=Starten Sie Bridge Chip
+vxl_auto.interface.stop_build_bridge=Stoppen Sie den Bridge-Chip
+
+vxl_auto.interface.home_title_pump=Item-Pump-Schnittstelle
+vxl_auto.interface.home_body_pump=Verbindungsoptionen
+vxl_auto.interface.home_body_no_entry_pump=§4Keine mit Hopper ausgerüsteten Auto-Miner gefunden.
+vxl_auto.interface.selected_auto_body_connected=Verbunden
+vxl_auto.interface.selected_auto_body_route=Route
+vxl_auto.interface.button_back_pump=Zurück
+vxl_auto.interface.button_route=§2Weg zur Pumpe
+vxl_auto.interface.button_unroute=§4Entfernen Sie die Route von der Pumpe
+
+
+vxl_auto.common_lang.plural='S
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Fehler beim Spawnen von Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Einzigartige Häute können nicht gefärbt werden.
+vxl_auto.common_lang.already_this_color=Auto-Miner hat bereits diese Farbe.
+vxl_auto.common_lang.not_owner=Sie besitzen diesen Auto-Miner nicht
+vxl_auto.common_lang.upgrade_equipped=Upgrade ausgestattet.
+vxl_auto.common_lang.already_equipped=Dieses Upgrade ist bereits ausgestattet.
+vxl_auto.common_lang.item_pump=Item-Pumpe
+vxl_auto.common_lang.cant_teleport_warning=§4Kann nicht zum Auto-Miner teleportiert werden, unsicherer Ort.

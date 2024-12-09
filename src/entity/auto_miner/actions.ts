@@ -51,10 +51,14 @@ export class AutoMinerActions {
     }
 
     public static breakBlocks(entity:Entity, direction: string){
+        const blockAtLocation: Block | undefined = entity.dimension.getBlock(entity.location);
+        if (blockAtLocation && !blockAtLocation.isAir && !blockAtLocation.isLiquid) {
+            AutoMinerActions.breakBlock(blockAtLocation);
+        }
         const blocks = AutoMinerActions.getBlockVolume(entity.location, direction, entity.dimension);
         for (const block of blocks) {
             AutoMinerActions.breakBlock(block);
-        }//entity.runCommand(`/execute as @s at @s positioned ^^^1 run fill ^-1^^-1 ^1^3^1 air destroy`)
+        } 
     }
 
     private static directionVector(direction: string): Vector3 {

@@ -19,14 +19,42 @@ export const propertyId = {
 }
 
 export const lang = {
-    plural: `'s`,
-    autoMiner: 'Auto-Miner',
-    spawnError: 'Error spawning Auto-Miner',
-    cantDyeUniqueSkins: 'Unique skins can not be dyed.',
-    alreadyThisColor: 'Auto-Miner is already this color.',
-    notOwner: 'You do not own this auto-miner',
-    upgradeEquipped: 'Upgrade equipped.',
-    alreadyEquipped: 'This upgrade is already equipped.',
-    itemPump: 'Item-Pump',
-    cantTeleportWarning: '§4Can not teleport to Auto-Miner, Unsafe location.'
+    plural: `vxl_auto.common_lang.plural`,
+    autoMiner: 'vxl_auto.common_lang.auto_miner',
+    spawnError: 'vxl_auto.common_lang.spawn_error',
+    cantDyeUniqueSkins: 'vxl_auto.common_lang.cant_dye_unique_skins',
+    alreadyThisColor: 'vxl_auto.common_lang.already_this_color',
+    notOwner: 'vxl_auto.common_lang.not_owner',
+    upgradeEquipped: 'vxl_auto.common_lang.upgrade_equipped',
+    alreadyEquipped: 'vxl_auto.common_lang.already_equipped',
+    itemPump: 'vxl_auto.common_lang.item_pump',
+    cantTeleportWarning: 'vxl_auto.common_lang.cant_teleport_warning'
+}
+export const interfaceLang = {
+    homeTitle: "vxl_auto.interface.home_title",
+    homeBody: "vxl_auto.interface.home_body",
+    buttonBack: "vxl_auto.interface.button_back",
+    modes: "vxl_auto.interface.modes",
+    modesBody: "vxl_auto.interface.modes_body",
+    pilot: "vxl_auto.interface.pilot",
+    homeBodyNoEntry: "vxl_auto.interface.home_body_no_entry",
+    selectedAutoMinerBody: "vxl_auto.interface.selected_auto_miner_body",
+    selectedAutoMinerDimensionError: "vxl_auto.interface.selected_auto_miner_dimension_error",
+    turnRight: "vxl_auto.interface.turn_right",
+    turnLeft: "vxl_auto.interface.turn_left",
+    stop: "vxl_auto.interface.stop",
+    start: "vxl_auto.interface.start",
+    exitCamera: "vxl_auto.interface.exit_camera",
+    recall: "vxl_auto.interface.recall",
+    teleport: "vxl_auto.interface.teleport",
+    startBuildBridge: "vxl_auto.interface.start_build_bridge",
+    stopBuildBridge: "vxl_auto.interface.stop_build_bridge",
+    homeTitlePump: "vxl_auto.interface.home_title_pump",
+    homeBodyPump: "vxl_auto.interface.home_body_pump",
+    homeBodyNoEntryPump: "vxl_auto.interface.home_body_no_entry_pump",
+    selectedAutoBodyConnected: "vxl_auto.interface.selected_auto_body_connected",
+    selectedAutoBodyRoute: "vxl_auto.interface.selected_auto_body_route",
+    buttonBackPump: "vxl_auto.interface.button_back_pump",
+    buttonRoute: "vxl_auto.interface.button_route",
+    buttonUnroute: "vxl_auto.interface.button_unroute"
 }

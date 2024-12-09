@@ -1,5 +1,8 @@
 pack.name=Auto-Miner Plus
 pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Artisan Table
+
 action.interact.vxl_auto.interact=Interact
 tile.vxl_auto:item_pump.name=Item Pump
 entity.vxl_auto:auto_miner.name=Auto-Miner
@@ -24,6 +27,47 @@ item.vxl_auto:auto_miner_placer_yellow=Yellow Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
 acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_spwm.author_name=Donthedev
+acm.vxl_auto.author_name=Donthedev
 acm.vxl_auto.description=An autonomous robot companion to assist with mining and construction.
 acm.vxl_auto.allow_teleport=Allow players to teleport to Auto-Miners
+
+vxl_auto.detachment_warning=is no longer attached to an
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Select an Auto-Miner
+vxl_auto.interface.button_back=Back
+vxl_auto.interface.modes=Special Modes
+vxl_auto.interface.modes_body=Special Modes
+vxl_auto.interface.pilot=Pilot Auto-Miner
+vxl_auto.interface.home_body_no_entry=No owned Auto-Miners found
+vxl_auto.interface.selected_auto_miner_body=Choose an option
+vxl_auto.interface.selected_auto_miner_dimension_error=You must be in the same dimension as the selected Auto-Miner to use these features.
+vxl_auto.interface.turn_right=Turn Right
+vxl_auto.interface.turn_left=Turn Left
+vxl_auto.interface.stop=Stop Engine
+vxl_auto.interface.start=Start Engine
+vxl_auto.interface.exit_camera=Exit Camera
+vxl_auto.interface.recall=Recall
+vxl_auto.interface.teleport=Teleport To
+vxl_auto.interface.start_build_bridge=Start Bridge Chip
+vxl_auto.interface.stop_build_bridge=Stop Bridge Chip
+
+vxl_auto.interface.home_title_pump=Item-Pump Interface
+vxl_auto.interface.home_body_pump=Connection Options
+vxl_auto.interface.home_body_no_entry_pump=§4No Hopper equipped Auto-Miners found.
+vxl_auto.interface.selected_auto_body_connected=Connected
+vxl_auto.interface.selected_auto_body_route=Route
+vxl_auto.interface.button_back_pump=Back
+vxl_auto.interface.button_route=§2Route To Pump
+vxl_auto.interface.button_unroute=§4Unroute From Pump
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Error spawning Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Unique skins can not be dyed.
+vxl_auto.common_lang.already_this_color=Auto-Miner is already this color.
+vxl_auto.common_lang.not_owner=You do not own this auto-miner
+vxl_auto.common_lang.upgrade_equipped=Upgrade equipped.
+vxl_auto.common_lang.already_equipped=This upgrade is already equipped.
+vxl_auto.common_lang.item_pump=Item-Pump
+vxl_auto.common_lang.cant_teleport_warning=§4Can not teleport to Auto-Miner, Unsafe location.

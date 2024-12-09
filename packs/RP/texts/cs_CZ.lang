@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Řemeslnický stůl
+
+action.interact.vxl_auto.interact=Komunikujte
+tile.vxl_auto:item_pump.name=Položka Čerpadlo
+entity.vxl_auto:auto_miner.name=Auto-Miner
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Auto-Miner
+item.vxl_auto:auto_miner_placer_black=Černý Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Modrý Auto-Miner
+item.vxl_auto:auto_miner_placer_brown=Hnědý Auto-Miner
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Zelený Auto-Miner
+item.vxl_auto:auto_miner_placer_light_blue=Světle modrý Auto-Miner
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Růžový Auto-Miner
+item.vxl_auto:auto_miner_placer_purple=Fialový Auto-Miner
+item.vxl_auto:auto_miner_placer_red=Červený Auto-Miner
+item.vxl_auto:auto_miner_placer_yellow=Žlutý Auto-Miner
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Auto-Miner
+acm.vxl_auto.author_name=Dontheděv
+acm.vxl_auto.description=Autonomní robotický společník, který pomáhá při těžbě a stavbě.
+acm.vxl_auto.allow_teleport=Umožněte hráčům teleportovat se do Auto-Hinerů
+
+vxl_auto.detachment_warning=již není připojen k an
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Vyberte Auto-Miner
+vxl_auto.interface.button_back=Zadní
+vxl_auto.interface.modes=Speciální režimy
+vxl_auto.interface.modes_body=Speciální režimy
+vxl_auto.interface.pilot=Pilotní Auto-Miner
+vxl_auto.interface.home_body_no_entry=Nebyly nalezeny žádné vlastněné automatické těžaře
+vxl_auto.interface.selected_auto_miner_body=Vyberte možnost
+vxl_auto.interface.selected_auto_miner_dimension_error=Abyste mohli používat tyto funkce, musíte být ve stejné dimenzi jako vybraný Auto-Miner.
+vxl_auto.interface.turn_right=Zahněte doprava
+vxl_auto.interface.turn_left=Zahněte doleva
+vxl_auto.interface.stop=Zastavte motor
+vxl_auto.interface.start=Spusťte motor
+vxl_auto.interface.exit_camera=Ukončete kameru
+vxl_auto.interface.recall=Odvolání
+vxl_auto.interface.teleport=Teleportovat do
+vxl_auto.interface.start_build_bridge=Spusťte Bridge Chip
+vxl_auto.interface.stop_build_bridge=Stop Bridge Chip
+
+vxl_auto.interface.home_title_pump=Rozhraní položka-čerpadlo
+vxl_auto.interface.home_body_pump=Možnosti připojení
+vxl_auto.interface.home_body_no_entry_pump=§4 Nebyly nalezeny žádné automatické těžaře vybavené zásobníkem.
+vxl_auto.interface.selected_auto_body_connected=Připojeno
+vxl_auto.interface.selected_auto_body_route=Trasa
+vxl_auto.interface.button_back_pump=Zadní
+vxl_auto.interface.button_route=§2 Cesta k čerpadlu
+vxl_auto.interface.button_unroute=§4Odvést z pumpy
+
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Auto-Miner
+vxl_auto.common_lang.spawn_error=Chyba při vytváření Auto-Mineru
+vxl_auto.common_lang.cant_dye_unique_skins=Jedinečné kůže nelze barvit.
+vxl_auto.common_lang.already_this_color=Auto-Miner už tuto barvu má.
+vxl_auto.common_lang.not_owner=Tento auto-miner nevlastníte
+vxl_auto.common_lang.upgrade_equipped=Upgrade vybaven.
+vxl_auto.common_lang.already_equipped=Tento upgrade je již vybaven.
+vxl_auto.common_lang.item_pump=Item-Pump
+vxl_auto.common_lang.cant_teleport_warning=§4Nelze se teleportovat do Auto-Mineru, Nebezpečné umístění.

@@ -1,0 +1,74 @@
+pack.name=Авто-Майнер Плюс
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Ремісничий стіл
+
+action.interact.vxl_auto.interact=Взаємодіяти
+tile.vxl_auto:item_pump.name=Пункт Насос
+entity.vxl_auto:auto_miner.name=Авто-Майнер
+entity.vxl_auto:entity_spawner.name=Спавнер автомайнера
+
+item.vxl_auto:tool=Менеджер автомайнера
+
+item.vxl_auto:auto_miner_placer_default=Авто-Майнер
+item.vxl_auto:auto_miner_placer_black=Чорний авто-майнер
+item.vxl_auto:auto_miner_placer_blue=Синій авто-майнер
+item.vxl_auto:auto_miner_placer_brown=Коричневий авто-майнер
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Зелений автомайнер
+item.vxl_auto:auto_miner_placer_light_blue=Світло-блакитний автомайнер
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-Miner
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Рожевий авто-майнер
+item.vxl_auto:auto_miner_placer_purple=Фіолетовий автомайнер
+item.vxl_auto:auto_miner_placer_red=Червоний Авто-Шахтар
+item.vxl_auto:auto_miner_placer_yellow=Жовтий Авто-Шахтар
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Авто-Майнер
+acm.vxl_auto.author_name=Донтедев
+acm.vxl_auto.description=Автономний робот-компаньйон для допомоги у видобутку корисних копалин і будівництві.
+acm.vxl_auto.allow_teleport=Дозволити гравцям телепортуватися в Auto-Miners
+
+vxl_auto.detachment_warning=більше не прикріплено до an
+
+vxl_auto.interface.home_title=Менеджер автомайнера
+vxl_auto.interface.home_body=Виберіть автомайнер
+vxl_auto.interface.button_back=Назад
+vxl_auto.interface.modes=Спеціальні режими
+vxl_auto.interface.modes_body=Спеціальні режими
+vxl_auto.interface.pilot=Пілотний Авто-Шахтар
+vxl_auto.interface.home_body_no_entry=Немає належних автомайнерів
+vxl_auto.interface.selected_auto_miner_body=Виберіть варіант
+vxl_auto.interface.selected_auto_miner_dimension_error=Ви повинні бути в тому ж вимірі, що й вибраний автомайнер, щоб використовувати ці функції.
+vxl_auto.interface.turn_right=Поверніть направо
+vxl_auto.interface.turn_left=Поверніть ліворуч
+vxl_auto.interface.stop=Зупиніть двигун
+vxl_auto.interface.start=Запустити двигун
+vxl_auto.interface.exit_camera=Вийти з камери
+vxl_auto.interface.recall=Відкликати
+vxl_auto.interface.teleport=Телепорт до
+vxl_auto.interface.start_build_bridge=Запустіть Bridge Chip
+vxl_auto.interface.stop_build_bridge=Зупинка Bridge Chip
+
+vxl_auto.interface.home_title_pump=Інтерфейс Item-Pump
+vxl_auto.interface.home_body_pump=Параметри підключення
+vxl_auto.interface.home_body_no_entry_pump=§4 Не знайдено автомайнерів, обладнаних Хопером.
+vxl_auto.interface.selected_auto_body_connected=Підключено
+vxl_auto.interface.selected_auto_body_route=Маршрут
+vxl_auto.interface.button_back_pump=Назад
+vxl_auto.interface.button_route=§2 Маршрут до насоса
+vxl_auto.interface.button_unroute=§4Відновлення маршруту від насоса
+
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Авто-Майнер
+vxl_auto.common_lang.spawn_error=Помилка створення Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Унікальні шкури не можна фарбувати.
+vxl_auto.common_lang.already_this_color=Авто-Майнер вже такого кольору.
+vxl_auto.common_lang.not_owner=Ви не володієте цим автомайнером
+vxl_auto.common_lang.upgrade_equipped=Оновлення обладнане.
+vxl_auto.common_lang.already_equipped=Це оновлення вже є.
+vxl_auto.common_lang.item_pump=Пункт-Насос
+vxl_auto.common_lang.cant_teleport_warning=§4Неможливо телепортуватися в Auto-Miner, небезпечне розташування.

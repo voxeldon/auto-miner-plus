@@ -47,14 +47,14 @@ export class AutoMiner {
         SpawnManager.deleteOwnerFromIndex(indexAdress);
     }
 
-    private static getEntityName(owner: Player, db: ScoreboardObjective) {
+    private static getEntityName(owner: Player, db: ScoreboardObjective): string {
         const i = db.getParticipants().length;
         let x = '';
         if (i > 1) x = i.toString()
-        return `${owner.nameTag}${lang.plural} ${lang.autoMiner}${x}`
+        return `${owner.nameTag}'s Auto-Miner ${x}`;
     }
 
-    public static onEntityRemoved(event: OnEntityRemovedEvent) {
+    public static onEntityRemoved(event: OnEntityRemovedEvent): void {
         const itemDb: ScoreboardObjective | undefined = SDB.getDb(`vxl_auto:inventory.${event.entity.id}`);
         if (itemDb) SDB.removeDb(itemDb);
         const ownerId = event.dynamicPropertyMap.get(propertyId.owner) as string | undefined;

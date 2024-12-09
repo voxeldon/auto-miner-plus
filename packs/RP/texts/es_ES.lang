@@ -1,0 +1,74 @@
+pack.name=Minero automático Plus
+pack.description=Minero automático v2.0.0
+
+tile.vxl_core:artisan_table.name=Mesa Artesanal
+
+action.interact.vxl_auto.interact=Interactuar
+tile.vxl_auto:item_pump.name=Bomba de artículo
+entity.vxl_auto:auto_miner.name=Minero automático
+entity.vxl_auto:entity_spawner.name=Generador de mineros automáticos
+
+item.vxl_auto:tool=Administrador de minero automático
+
+item.vxl_auto:auto_miner_placer_default=Minero automático
+item.vxl_auto:auto_miner_placer_black=Minero automático negro
+item.vxl_auto:auto_miner_placer_blue=Minero automático azul
+item.vxl_auto:auto_miner_placer_brown=Minero automático marrón
+item.vxl_auto:auto_miner_placer_cyan=Minero automático cian
+item.vxl_auto:auto_miner_placer_green=Minero automático verde
+item.vxl_auto:auto_miner_placer_light_blue=Minero automático azul claro
+item.vxl_auto:auto_miner_placer_lime=Minero automático de cal
+item.vxl_auto:auto_miner_placer_magenta=Minero automático magenta
+item.vxl_auto:auto_miner_placer_orange=Minero automático naranja
+item.vxl_auto:auto_miner_placer_pink=Minero automático rosa
+item.vxl_auto:auto_miner_placer_purple=Minero automático morado
+item.vxl_auto:auto_miner_placer_red=Minero automático rojo
+item.vxl_auto:auto_miner_placer_yellow=Minero automático amarillo
+item.vxl_auto:auto_miner_placer_rainbow=Minero automático arcoíris
+
+acm.vxl_auto.pack_name=Minero automático
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Un robot autónomo compañero para ayudar en la minería y la construcción.
+acm.vxl_auto.allow_teleport=Permitir que los jugadores se teletransporten a Auto-Miners
+
+vxl_auto.detachment_warning=ya no está unido a un
+
+vxl_auto.interface.home_title=Administrador de minero automático
+vxl_auto.interface.home_body=Seleccione un minero automático
+vxl_auto.interface.button_back=Atrás
+vxl_auto.interface.modes=Modos especiales
+vxl_auto.interface.modes_body=Modos especiales
+vxl_auto.interface.pilot=Minero automático piloto
+vxl_auto.interface.home_body_no_entry=No se encontraron Auto-Miners de propiedad
+vxl_auto.interface.selected_auto_miner_body=Elige una opción
+vxl_auto.interface.selected_auto_miner_dimension_error=Debe estar en la misma dimensión que el Auto-Miner seleccionado para utilizar estas funciones.
+vxl_auto.interface.turn_right=Gire a la derecha
+vxl_auto.interface.turn_left=Gire a la izquierda
+vxl_auto.interface.stop=Detener el motor
+vxl_auto.interface.start=Arrancar el motor
+vxl_auto.interface.exit_camera=Salir de la cámara
+vxl_auto.interface.recall=Recordar
+vxl_auto.interface.teleport=Teletransportarse a
+vxl_auto.interface.start_build_bridge=Iniciar chip de puente
+vxl_auto.interface.stop_build_bridge=Detener chip de puente
+
+vxl_auto.interface.home_title_pump=Interfaz artículo-bomba
+vxl_auto.interface.home_body_pump=Opciones de conexión
+vxl_auto.interface.home_body_no_entry_pump=§4No se encontraron Auto-Miners equipados con tolva.
+vxl_auto.interface.selected_auto_body_connected=Conectado
+vxl_auto.interface.selected_auto_body_route=Ruta
+vxl_auto.interface.button_back_pump=Atrás
+vxl_auto.interface.button_route=§2Ruta a la bomba
+vxl_auto.interface.button_unroute=§4Desviación de la bomba
+
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Minero automático
+vxl_auto.common_lang.spawn_error=Error al generar Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Las pieles únicas no se pueden teñir.
+vxl_auto.common_lang.already_this_color=Auto-Miner ya es de este color.
+vxl_auto.common_lang.not_owner=No eres dueño de este minero automático
+vxl_auto.common_lang.upgrade_equipped=Actualización equipada.
+vxl_auto.common_lang.already_equipped=Esta actualización ya está equipada.
+vxl_auto.common_lang.item_pump=Artículo-bomba
+vxl_auto.common_lang.cant_teleport_warning=§4No se puede teletransportar a Auto-Miner, ubicación insegura.

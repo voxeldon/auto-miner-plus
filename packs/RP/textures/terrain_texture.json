@@ -6,7 +6,7 @@
   "texture_data": {
     "vxl_core_artisan_table_front": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_front"},
     "vxl_core_artisan_table_side": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_side"},
-    "vxl_core_artisan_table_top": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_top"},
+    "vxl_core_artisan_table_top": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_top"}, 
     "vxl_core_null": {"textures": "textures/voxel/vxl_core/null"},
     "vxl_auto_item_pump": {"textures": "textures/voxel/vxl_auto/entity/item_pump"}
   }

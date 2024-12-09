@@ -1,0 +1,74 @@
+pack.name=자동 채굴기 플러스
+pack.description=자동 채굴기 v2.0.0
+
+tile.vxl_core:artisan_table.name=장인 테이블
+
+action.interact.vxl_auto.interact=상호작용
+tile.vxl_auto:item_pump.name=아이템 펌프
+entity.vxl_auto:auto_miner.name=자동 채굴기
+entity.vxl_auto:entity_spawner.name=자동 채굴기 생성기
+
+item.vxl_auto:tool=자동 채굴 관리자
+
+item.vxl_auto:auto_miner_placer_default=자동 채굴기
+item.vxl_auto:auto_miner_placer_black=블랙 자동 채굴기
+item.vxl_auto:auto_miner_placer_blue=블루 자동 채굴기
+item.vxl_auto:auto_miner_placer_brown=브라운 자동 채굴기
+item.vxl_auto:auto_miner_placer_cyan=청록색 자동 채굴기
+item.vxl_auto:auto_miner_placer_green=녹색 자동 채굴기
+item.vxl_auto:auto_miner_placer_light_blue=하늘색 자동 채굴기
+item.vxl_auto:auto_miner_placer_lime=라임 자동 채굴기
+item.vxl_auto:auto_miner_placer_magenta=마젠타 자동 채굴기
+item.vxl_auto:auto_miner_placer_orange=오렌지 자동 채굴기
+item.vxl_auto:auto_miner_placer_pink=핑크 자동 채굴기
+item.vxl_auto:auto_miner_placer_purple=보라색 자동 채굴기
+item.vxl_auto:auto_miner_placer_red=레드 자동 채굴기
+item.vxl_auto:auto_miner_placer_yellow=노란색 자동 채굴기
+item.vxl_auto:auto_miner_placer_rainbow=레인보우 자동 채굴기
+
+acm.vxl_auto.pack_name=자동 채굴기
+acm.vxl_auto.author_name=돈테데프
+acm.vxl_auto.description=광산 및 건설을 지원하는 자율 로봇 동반자입니다.
+acm.vxl_auto.allow_teleport=플레이어가 자동 채굴기로 순간이동할 수 있도록 허용
+
+vxl_auto.detachment_warning=더 이상 에 연결되어 있지 않습니다.
+
+vxl_auto.interface.home_title=자동 채굴 관리자
+vxl_auto.interface.home_body=자동 채굴기를 선택하세요
+vxl_auto.interface.button_back=뒤쪽에
+vxl_auto.interface.modes=특수 모드
+vxl_auto.interface.modes_body=특수 모드
+vxl_auto.interface.pilot=파일럿 자동 채굴기
+vxl_auto.interface.home_body_no_entry=소유한 자동 채굴자를 찾을 수 없습니다.
+vxl_auto.interface.selected_auto_miner_body=옵션을 선택하세요
+vxl_auto.interface.selected_auto_miner_dimension_error=이 기능을 사용하려면 선택한 자동 마이너와 동일한 차원에 있어야 합니다.
+vxl_auto.interface.turn_right=우회전
+vxl_auto.interface.turn_left=좌회전
+vxl_auto.interface.stop=엔진 정지
+vxl_auto.interface.start=엔진 시작
+vxl_auto.interface.exit_camera=카메라 종료
+vxl_auto.interface.recall=상기하다
+vxl_auto.interface.teleport=텔레포트 대상
+vxl_auto.interface.start_build_bridge=브리지 칩 시작
+vxl_auto.interface.stop_build_bridge=브리지 칩 중지
+
+vxl_auto.interface.home_title_pump=아이템 펌프 인터페이스
+vxl_auto.interface.home_body_pump=연결 옵션
+vxl_auto.interface.home_body_no_entry_pump=§4호퍼가 장착된 자동 채굴기가 발견되지 않았습니다.
+vxl_auto.interface.selected_auto_body_connected=연결됨
+vxl_auto.interface.selected_auto_body_route=노선
+vxl_auto.interface.button_back_pump=뒤쪽에
+vxl_auto.interface.button_route=§2펌프로의 경로
+vxl_auto.interface.button_unroute=§4펌프에서 라우팅 해제
+
+
+vxl_auto.common_lang.plural='에스
+vxl_auto.common_lang.auto_miner=자동 채굴기
+vxl_auto.common_lang.spawn_error=자동 채굴기 생성 오류
+vxl_auto.common_lang.cant_dye_unique_skins=유니크 스킨은 염색이 불가능합니다.
+vxl_auto.common_lang.already_this_color=자동 채굴기는 이미 이 색상입니다.
+vxl_auto.common_lang.not_owner=귀하는 이 자동 채굴기를 소유하고 있지 않습니다.
+vxl_auto.common_lang.upgrade_equipped=업그레이드 장착.
+vxl_auto.common_lang.already_equipped=이 업그레이드는 이미 장착되어 있습니다.
+vxl_auto.common_lang.item_pump=아이템-펌프
+vxl_auto.common_lang.cant_teleport_warning=§4자동 채굴기, 안전하지 않은 위치로 순간이동할 수 없습니다.

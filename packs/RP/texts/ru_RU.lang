@@ -1,0 +1,74 @@
+pack.name=Авто-Майнер Плюс
+pack.description=Авто-Майнер v2.0.0
+
+tile.vxl_core:artisan_table.name=Ремесленный стол
+
+action.interact.vxl_auto.interact=Взаимодействовать
+tile.vxl_auto:item_pump.name=Предмет Насос
+entity.vxl_auto:auto_miner.name=Авто-Майнер
+entity.vxl_auto:entity_spawner.name=Авто-шахтер Спаунер
+
+item.vxl_auto:tool=Менеджер Авто-Майнера
+
+item.vxl_auto:auto_miner_placer_default=Авто-Майнер
+item.vxl_auto:auto_miner_placer_black=Черный Авто-Майнер
+item.vxl_auto:auto_miner_placer_blue=Синий авто-шахтер
+item.vxl_auto:auto_miner_placer_brown=Браун Авто-Майнер
+item.vxl_auto:auto_miner_placer_cyan=Голубой авто-майнер
+item.vxl_auto:auto_miner_placer_green=Зеленый Авто-Майнер
+item.vxl_auto:auto_miner_placer_light_blue=Голубой авто-майнер
+item.vxl_auto:auto_miner_placer_lime=Известь Авто-Майнер
+item.vxl_auto:auto_miner_placer_magenta=Пурпурный авто-майнер
+item.vxl_auto:auto_miner_placer_orange=Оранжевый авто-майнер
+item.vxl_auto:auto_miner_placer_pink=Розовый авто-майнер
+item.vxl_auto:auto_miner_placer_purple=Фиолетовый автошахтер
+item.vxl_auto:auto_miner_placer_red=Красный Авто-Шахтер
+item.vxl_auto:auto_miner_placer_yellow=Желтый Авто-Майнер
+item.vxl_auto:auto_miner_placer_rainbow=Радужный авто-майнер
+
+acm.vxl_auto.pack_name=Авто-Майнер
+acm.vxl_auto.author_name=Донтедев
+acm.vxl_auto.description=Автономный робот-компаньон, который поможет в добыче полезных ископаемых и строительстве.
+acm.vxl_auto.allow_teleport=Разрешить игрокам телепортироваться к автомайнерам
+
+vxl_auto.detachment_warning=больше не привязан к
+
+vxl_auto.interface.home_title=Менеджер Авто-Майнера
+vxl_auto.interface.home_body=Выберите автоматический майнер
+vxl_auto.interface.button_back=Назад
+vxl_auto.interface.modes=Специальные режимы
+vxl_auto.interface.modes_body=Специальные режимы
+vxl_auto.interface.pilot=Пилотный авто-майнер
+vxl_auto.interface.home_body_no_entry=Собственных авто-майнеров не найдено
+vxl_auto.interface.selected_auto_miner_body=Выберите вариант
+vxl_auto.interface.selected_auto_miner_dimension_error=Чтобы использовать эти функции, вы должны находиться в том же измерении, что и выбранный Auto-Miner.
+vxl_auto.interface.turn_right=Поверните направо
+vxl_auto.interface.turn_left=Поверните налево
+vxl_auto.interface.stop=Остановить двигатель
+vxl_auto.interface.start=Запустить двигатель
+vxl_auto.interface.exit_camera=Выход из камеры
+vxl_auto.interface.recall=Отзывать
+vxl_auto.interface.teleport=Телепортироваться куда
+vxl_auto.interface.start_build_bridge=Запуск чипа моста
+vxl_auto.interface.stop_build_bridge=Остановить мостовой чип
+
+vxl_auto.interface.home_title_pump=Интерфейс предмет-насос
+vxl_auto.interface.home_body_pump=Варианты подключения
+vxl_auto.interface.home_body_no_entry_pump=§4Автомайнеры с бункером не найдены.
+vxl_auto.interface.selected_auto_body_connected=Подключено
+vxl_auto.interface.selected_auto_body_route=Маршрут
+vxl_auto.interface.button_back_pump=Назад
+vxl_auto.interface.button_route=§2Путь к насосу
+vxl_auto.interface.button_unroute=§4Отмена маршрутизации от насоса
+
+
+vxl_auto.common_lang.plural='s
+vxl_auto.common_lang.auto_miner=Авто-Майнер
+vxl_auto.common_lang.spawn_error=Ошибка создания Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Уникальные скины нельзя покрасить.
+vxl_auto.common_lang.already_this_color=Авто-Майнер уже такого цвета.
+vxl_auto.common_lang.not_owner=У вас нет этого автомайнера
+vxl_auto.common_lang.upgrade_equipped=Обновление оборудовано.
+vxl_auto.common_lang.already_equipped=Это обновление уже оборудовано.
+vxl_auto.common_lang.item_pump=Товар-насос
+vxl_auto.common_lang.cant_teleport_warning=§4Невозможно телепортироваться в Auto-Miner, небезопасное место.

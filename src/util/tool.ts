@@ -1,11 +1,10 @@
 import { Entity, ItemUseAfterEvent, Player, world } from "@minecraft/server";
-import { lang, propertyId, texturePath, toolTypeId } from "../global";
+import { interfaceLang, lang, propertyId, texturePath, toolTypeId } from "../global";
 import { ActionForm, ActionFormReturnData, MessageForm } from "../_import/spec/_module/util/form";
 import { AutoMinerUtil } from "../entity/auto_miner/util";
 import { CommonOperations } from "./common_operations";
 import { PilotCamera } from "./camera";
 import { AutoMinerInteracts } from "../entity/auto_miner/interaction";
-import { Config } from "../config";
 import { AutoMiner } from "../entity/auto_miner/main";
 import { Vector3 } from "../_import/spec/_module/util/vector";
 import { MessageFormResponse } from "@minecraft/server-ui";
@@ -41,27 +40,6 @@ export class Tool {
         ToolInterface.pageHome(player);
         
     }
-}
-
-const interfaceLang = {
-    homeTitle: "Auto-Miner Manager",
-    homeBody: "Select an Auto-Miner",
-    buttonBack: "Back",
-    modes: "Special Modes",
-    modesBody: "Special Modes",
-    pilot: "Pilot Auto-Miner",
-    homeBodyNoEntry: "No owned Auto-Miners found",
-    selectedAutoMinerBody: "Choose an option",
-    selectedAutoMinerDimensionError: "You must be in the same dimension as the selected Auto-Miner to use these features.",
-    turnRight: "Turn Right",
-    turnLeft: "Turn Left",
-    stop: "Stop Engine",
-    start: "Start Engine",
-    exitCamera: "Exit Camera",
-    recall: "Recall",
-    teleport: "Teleport To",
-    startBuildBridge: "Start Bridge Chip",
-    stopBuildBridge: "Stop Bridge Chip"
 }
 
 class ToolInterface {

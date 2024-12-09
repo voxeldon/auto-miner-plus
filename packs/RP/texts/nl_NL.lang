@@ -1,0 +1,74 @@
+pack.name=Auto-mijnwerker plus
+pack.description=Auto-Mijnwerker v2.0.0
+
+tile.vxl_core:artisan_table.name=Ambachtelijke tafel
+
+action.interact.vxl_auto.interact=Interactie
+tile.vxl_auto:item_pump.name=Artikel Pomp
+entity.vxl_auto:auto_miner.name=Auto-mijnwerker
+entity.vxl_auto:entity_spawner.name=Auto-mijnwerker spawner
+
+item.vxl_auto:tool=Automijnbeheerder
+
+item.vxl_auto:auto_miner_placer_default=Auto-mijnwerker
+item.vxl_auto:auto_miner_placer_black=Zwarte automijnwerker
+item.vxl_auto:auto_miner_placer_blue=Blauwe automijnwerker
+item.vxl_auto:auto_miner_placer_brown=Bruine automijnwerker
+item.vxl_auto:auto_miner_placer_cyan=Cyaan automatische mijnwerker
+item.vxl_auto:auto_miner_placer_green=Groene automijnwerker
+item.vxl_auto:auto_miner_placer_light_blue=Lichtblauwe automatische mijnwerker
+item.vxl_auto:auto_miner_placer_lime=Lime Auto-mijnwerker
+item.vxl_auto:auto_miner_placer_magenta=Magenta automatische mijnwerker
+item.vxl_auto:auto_miner_placer_orange=Oranje automijnwerker
+item.vxl_auto:auto_miner_placer_pink=Roze automijnwerker
+item.vxl_auto:auto_miner_placer_purple=Paarse automijnwerker
+item.vxl_auto:auto_miner_placer_red=Rode automijnwerker
+item.vxl_auto:auto_miner_placer_yellow=Gele automijnwerker
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Automijnwerker
+
+acm.vxl_auto.pack_name=Auto-mijnwerker
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Een autonome robotmetgezel om te helpen bij mijnbouw en constructie.
+acm.vxl_auto.allow_teleport=Laat spelers teleporteren naar Auto-Miners
+
+vxl_auto.detachment_warning=is niet langer gekoppeld aan een
+
+vxl_auto.interface.home_title=Automijnbeheerder
+vxl_auto.interface.home_body=Selecteer een automatische mijnwerker
+vxl_auto.interface.button_back=Rug
+vxl_auto.interface.modes=Speciale modi
+vxl_auto.interface.modes_body=Speciale modi
+vxl_auto.interface.pilot=Piloot automatische mijnwerker
+vxl_auto.interface.home_body_no_entry=Geen eigen Auto-Miners gevonden
+vxl_auto.interface.selected_auto_miner_body=Kies een optie
+vxl_auto.interface.selected_auto_miner_dimension_error=U moet zich in dezelfde dimensie bevinden als de geselecteerde Auto-Miner om deze functies te kunnen gebruiken.
+vxl_auto.interface.turn_right=Sla rechtsaf
+vxl_auto.interface.turn_left=Sla linksaf
+vxl_auto.interface.stop=Motor stoppen
+vxl_auto.interface.start=Start de motor
+vxl_auto.interface.exit_camera=Sluit Camera af
+vxl_auto.interface.recall=Herinneren
+vxl_auto.interface.teleport=Teleporteren naar
+vxl_auto.interface.start_build_bridge=Start Bridge-chip
+vxl_auto.interface.stop_build_bridge=Stop Bridge-chip
+
+vxl_auto.interface.home_title_pump=Artikel-pompinterface
+vxl_auto.interface.home_body_pump=Verbindingsopties
+vxl_auto.interface.home_body_no_entry_pump=§4Er zijn geen met hoppers uitgeruste automijnwerkers gevonden.
+vxl_auto.interface.selected_auto_body_connected=Aangesloten
+vxl_auto.interface.selected_auto_body_route=Route
+vxl_auto.interface.button_back_pump=Rug
+vxl_auto.interface.button_route=§2Route naar pomp
+vxl_auto.interface.button_unroute=§4Verwijder de route van de pomp
+
+
+vxl_auto.common_lang.plural='S
+vxl_auto.common_lang.auto_miner=Auto-mijnwerker
+vxl_auto.common_lang.spawn_error=Fout bij het genereren van Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Unieke huiden kunnen niet worden geverfd.
+vxl_auto.common_lang.already_this_color=Auto-Miner heeft al deze kleur.
+vxl_auto.common_lang.not_owner=U bent niet de eigenaar van deze automatische mijnwerker
+vxl_auto.common_lang.upgrade_equipped=Upgrade uitgerust.
+vxl_auto.common_lang.already_equipped=Deze upgrade is al uitgerust.
+vxl_auto.common_lang.item_pump=Artikel-pomp
+vxl_auto.common_lang.cant_teleport_warning=§4Kan niet teleporteren naar Auto-Miner, onveilige locatie.

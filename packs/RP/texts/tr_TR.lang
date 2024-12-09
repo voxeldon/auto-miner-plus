@@ -1,0 +1,74 @@
+pack.name=Otomatik Madenci Plus
+pack.description=Otomatik Madenci v2.0.0
+
+tile.vxl_core:artisan_table.name=Esnaf Masası
+
+action.interact.vxl_auto.interact=Etkileşime girmek
+tile.vxl_auto:item_pump.name=Ürün Pompası
+entity.vxl_auto:auto_miner.name=Otomatik Madenci
+entity.vxl_auto:entity_spawner.name=Otomatik Madenci Yumurtlama Yeri
+
+item.vxl_auto:tool=Otomatik Madencilik Yöneticisi
+
+item.vxl_auto:auto_miner_placer_default=Otomatik Madencilik
+item.vxl_auto:auto_miner_placer_black=Siyah Otomatik Madenci
+item.vxl_auto:auto_miner_placer_blue=Mavi Otomatik Madenci
+item.vxl_auto:auto_miner_placer_brown=Kahverengi Otomatik Madenci
+item.vxl_auto:auto_miner_placer_cyan=Camgöbeği Otomatik Madenci
+item.vxl_auto:auto_miner_placer_green=Yeşil Otomatik Madenci
+item.vxl_auto:auto_miner_placer_light_blue=Açık Mavi Otomatik Madenci
+item.vxl_auto:auto_miner_placer_lime=Kireç Otomatik Madenci
+item.vxl_auto:auto_miner_placer_magenta=Macenta Otomatik Madenci
+item.vxl_auto:auto_miner_placer_orange=Turuncu Otomatik Madenci
+item.vxl_auto:auto_miner_placer_pink=Pembe Otomatik Madenci
+item.vxl_auto:auto_miner_placer_purple=Mor Otomatik Madenci
+item.vxl_auto:auto_miner_placer_red=Kırmızı Otomatik Madenci
+item.vxl_auto:auto_miner_placer_yellow=Sarı Otomatik Madenci
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Otomatik Madenci
+
+acm.vxl_auto.pack_name=Otomatik Madenci
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Madencilik ve inşaat işlerine yardımcı olacak otonom bir robot arkadaşı.
+acm.vxl_auto.allow_teleport=Oyuncuların Auto-Madenciler'e ışınlanmasına izin ver
+
+vxl_auto.detachment_warning=artık bir şeye bağlı değil
+
+vxl_auto.interface.home_title=Otomatik Madencilik Yöneticisi
+vxl_auto.interface.home_body=Bir Otomatik Madenci Seçin
+vxl_auto.interface.button_back=Geri
+vxl_auto.interface.modes=Özel Modlar
+vxl_auto.interface.modes_body=Özel Modlar
+vxl_auto.interface.pilot=Pilot Otomatik Madenci
+vxl_auto.interface.home_body_no_entry=Sahip olunan Otomatik Madenci bulunamadı
+vxl_auto.interface.selected_auto_miner_body=Bir seçenek seçin
+vxl_auto.interface.selected_auto_miner_dimension_error=Bu özellikleri kullanmak için seçilen Otomatik Madenci ile aynı boyutta olmanız gerekir.
+vxl_auto.interface.turn_right=Sağa dönün
+vxl_auto.interface.turn_left=Sola çevirin
+vxl_auto.interface.stop=Motoru Durdur
+vxl_auto.interface.start=Motoru Başlat
+vxl_auto.interface.exit_camera=Kameradan Çık
+vxl_auto.interface.recall=Hatırlamak
+vxl_auto.interface.teleport=Işınlan
+vxl_auto.interface.start_build_bridge=Köprü Çipini Başlat
+vxl_auto.interface.stop_build_bridge=Köprü Çipini Durdur
+
+vxl_auto.interface.home_title_pump=Öğe-Pompa Arayüzü
+vxl_auto.interface.home_body_pump=Bağlantı Seçenekleri
+vxl_auto.interface.home_body_no_entry_pump=§4Hopper donanımlı Otomatik Madenciler bulunamadı.
+vxl_auto.interface.selected_auto_body_connected=Bağlı
+vxl_auto.interface.selected_auto_body_route=Rota
+vxl_auto.interface.button_back_pump=Geri
+vxl_auto.interface.button_route=§2Pompaya Giden Yol
+vxl_auto.interface.button_unroute=§4Pompadan Rotayı Kaldırma
+
+
+vxl_auto.common_lang.plural='S
+vxl_auto.common_lang.auto_miner=Otomatik Madenci
+vxl_auto.common_lang.spawn_error=Auto-Miner oluşturulurken hata oluştu
+vxl_auto.common_lang.cant_dye_unique_skins=Benzersiz deriler boyanamaz.
+vxl_auto.common_lang.already_this_color=Auto-Miner zaten bu renktedir.
+vxl_auto.common_lang.not_owner=Bu otomatik madenciye sahip değilsiniz
+vxl_auto.common_lang.upgrade_equipped=Donanımlı yükseltme.
+vxl_auto.common_lang.already_equipped=Bu yükseltme zaten donatılmıştır.
+vxl_auto.common_lang.item_pump=Ürün-Pompa
+vxl_auto.common_lang.cant_teleport_warning=§4Auto-Miner'a ışınlanamıyor, Güvenli olmayan konum.

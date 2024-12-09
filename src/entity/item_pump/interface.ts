@@ -1,33 +1,24 @@
-import { Entity, Player } from "@minecraft/server";
+import { Entity, Player, RawMessage } from "@minecraft/server";
 import { ActionForm, ActionFormReturnData } from "../../_import/spec/_module/util/form";
 import { CommonOperations } from "../../util/common_operations";
-import { lang, propertyId, texturePath } from "../../global";
+import { interfaceLang, lang, propertyId, texturePath } from "../../global";
 import { AutoMinerUtil } from "../auto_miner/util";
+import { RawText } from "../../_import/spec/_module/util/raw_text";
 
-const interfaceLang = {
-    homeTitle: "Item-Pump Interface",
-    homeBody: "Connection Options",
-    homeBodyNoEntry: "§4No Hopper equipped Auto-Miners found.",
-    selectedAutoBodyConnected: "Connected",
-    selectedAutoBodyRoute: "Route",
-    buttonBack: "Back",
-    buttonRoute: "§2Route To Pump",
-    buttonUnroute: "§4Unroute From Pump"
-}
 
 export class ItemPumpInterface {
     public static pageHome(player: Player, parent: Entity){
         const autoMiners: Entity[] = CommonOperations.getOwnedEntities(player.id, 'auto_miner');
         const form: ActionForm = new ActionForm();
-        form.setTitle(interfaceLang.homeTitle);
+        form.setTitle(interfaceLang.homeTitlePump);
         const hasButtons: boolean = InterfaceOperations.makeButtonForEachAutoMiner(player,parent, autoMiners, form);
         if (!hasButtons) {
-            form.addButton('back', interfaceLang.buttonBack);
-            form.setBody(interfaceLang.homeBodyNoEntry);
+            form.addButton('back', interfaceLang.buttonBackPump);
+            form.setBody(interfaceLang.homeBodyNoEntryPump);
             player.playSound('vxl_auto.error');
         } else {
             player.playSound('vxl_auto.interact');
-            form.setBody(interfaceLang.homeBody);
+            form.setBody(interfaceLang.homeBodyPump);
         }
         form.showForm(player).then((data: ActionFormReturnData) => {
             player.playSound('vxl_auto.interact');
@@ -46,12 +37,12 @@ export class ItemPumpInterface {
     public static pageSelectedAutoMiner(player: Player, autoMiner: Entity, parent: Entity){
         const routePathId = autoMiner.getDynamicProperty(propertyId.routePathId) as string | undefined;
         const form: ActionForm = new ActionForm();
-        form.setTitle(interfaceLang.homeTitle);
+        form.setTitle(interfaceLang.homeTitlePump);
         form.setBody(InterfaceOperations.generateSelectedAutoMinerBodyText(routePathId));
 
         if (routePathId) form.addButton('route', interfaceLang.buttonUnroute);
         else form.addButton('route', interfaceLang.buttonRoute);
-        form.addButton('back', interfaceLang.buttonBack);
+        form.addButton('back', interfaceLang.buttonBackPump);
 
         form.showForm(player).then((data: ActionFormReturnData) => {
             player.playSound('vxl_auto.interact');
@@ -86,14 +77,18 @@ class InterfaceOperations{
         return buttonsMade;
     }
 
-    public static generateSelectedAutoMinerBodyText(routePathId: string | undefined): string {
+    public static generateSelectedAutoMinerBodyText(routePathId: string | undefined): RawMessage {
         const route: string = interfaceLang.selectedAutoBodyRoute;
         const connected: string = interfaceLang.selectedAutoBodyConnected;
         let isRouted: boolean = false;
         if (routePathId !== undefined){
             isRouted = true;
-            return `§2${connected}: ${isRouted}\n${route}: ${routePathId}`;
+            return RawText.MESSAGE(
+                RawText.TEXT('§2'), RawText.TRANSLATE(connected),
+                RawText.TEXT(`: ${isRouted}\n`),
+                RawText.TRANSLATE(route), RawText.TEXT(`: ${routePathId}`)
+            )
         }
-        return `§4${connected}: ${isRouted}`;
+        return RawText.MESSAGE(RawText.TEXT('§4'), RawText.TRANSLATE(connected), RawText.TEXT(`: ${isRouted}`),)
     }
 }

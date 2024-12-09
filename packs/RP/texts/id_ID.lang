@@ -1,0 +1,74 @@
+pack.name=Penambang Otomatis Plus
+pack.description=Penambang Otomatis v2.0.0
+
+tile.vxl_core:artisan_table.name=Meja Pengrajin
+
+action.interact.vxl_auto.interact=Berinteraksi
+tile.vxl_auto:item_pump.name=Barang Pompa
+entity.vxl_auto:auto_miner.name=Penambang Otomatis
+entity.vxl_auto:entity_spawner.name=Pemijahan Penambang Otomatis
+
+item.vxl_auto:tool=Manajer Penambang Otomatis
+
+item.vxl_auto:auto_miner_placer_default=Penambang Otomatis
+item.vxl_auto:auto_miner_placer_black=Penambang Otomatis Hitam
+item.vxl_auto:auto_miner_placer_blue=Penambang Otomatis Biru
+item.vxl_auto:auto_miner_placer_brown=Penambang Otomatis Coklat
+item.vxl_auto:auto_miner_placer_cyan=Penambang Otomatis Cyan
+item.vxl_auto:auto_miner_placer_green=Penambang Otomatis Hijau
+item.vxl_auto:auto_miner_placer_light_blue=Penambang Otomatis Biru Muda
+item.vxl_auto:auto_miner_placer_lime=Penambang Otomatis Kapur
+item.vxl_auto:auto_miner_placer_magenta=Penambang Otomatis Magenta
+item.vxl_auto:auto_miner_placer_orange=Penambang Otomatis Oranye
+item.vxl_auto:auto_miner_placer_pink=Penambang Otomatis Merah Muda
+item.vxl_auto:auto_miner_placer_purple=Penambang Otomatis Ungu
+item.vxl_auto:auto_miner_placer_red=Penambang Otomatis Merah
+item.vxl_auto:auto_miner_placer_yellow=Penambang Otomatis Kuning
+item.vxl_auto:auto_miner_placer_rainbow=Penambang Otomatis Pelangi
+
+acm.vxl_auto.pack_name=Penambang Otomatis
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Pendamping robot otonom untuk membantu penambangan dan konstruksi.
+acm.vxl_auto.allow_teleport=Izinkan pemain untuk berteleportasi ke Auto-Miners
+
+vxl_auto.detachment_warning=tidak lagi melekat pada sebuah
+
+vxl_auto.interface.home_title=Manajer Penambang Otomatis
+vxl_auto.interface.home_body=Pilih Penambang Otomatis
+vxl_auto.interface.button_back=Kembali
+vxl_auto.interface.modes=Mode Khusus
+vxl_auto.interface.modes_body=Mode Khusus
+vxl_auto.interface.pilot=Percontohan Penambang Otomatis
+vxl_auto.interface.home_body_no_entry=Tidak ditemukan Penambang Otomatis yang dimiliki
+vxl_auto.interface.selected_auto_miner_body=Pilih satu opsi
+vxl_auto.interface.selected_auto_miner_dimension_error=Anda harus berada dalam dimensi yang sama dengan Auto-Miner yang dipilih untuk menggunakan fitur ini.
+vxl_auto.interface.turn_right=Belok Kanan
+vxl_auto.interface.turn_left=Belok Kiri
+vxl_auto.interface.stop=Hentikan Mesin
+vxl_auto.interface.start=Mulai Mesin
+vxl_auto.interface.exit_camera=Keluar dari Kamera
+vxl_auto.interface.recall=Mengingat
+vxl_auto.interface.teleport=Teleportasi Ke
+vxl_auto.interface.start_build_bridge=Mulai Chip Jembatan
+vxl_auto.interface.stop_build_bridge=Hentikan Bridge Chip
+
+vxl_auto.interface.home_title_pump=Antarmuka Item-Pompa
+vxl_auto.interface.home_body_pump=Opsi Koneksi
+vxl_auto.interface.home_body_no_entry_pump=§4Tidak ditemukan Penambang Otomatis yang dilengkapi Hopper.
+vxl_auto.interface.selected_auto_body_connected=Terhubung
+vxl_auto.interface.selected_auto_body_route=Rute
+vxl_auto.interface.button_back_pump=Kembali
+vxl_auto.interface.button_route=§2Rute Ke Pompa
+vxl_auto.interface.button_unroute=§4Batalkan Rute Dari Pompa
+
+
+vxl_auto.common_lang.plural='S
+vxl_auto.common_lang.auto_miner=Penambang Otomatis
+vxl_auto.common_lang.spawn_error=Terjadi kesalahan saat memunculkan Penambang Otomatis
+vxl_auto.common_lang.cant_dye_unique_skins=Kulit unik tidak bisa diwarnai.
+vxl_auto.common_lang.already_this_color=Auto-Miner sudah memiliki warna ini.
+vxl_auto.common_lang.not_owner=Anda bukan pemilik penambang otomatis ini
+vxl_auto.common_lang.upgrade_equipped=Dilengkapi peningkatan.
+vxl_auto.common_lang.already_equipped=Peningkatan ini sudah dilengkapi.
+vxl_auto.common_lang.item_pump=Item-Pompa
+vxl_auto.common_lang.cant_teleport_warning=§4Tidak dapat berteleportasi ke Auto-Miner, Lokasi tidak aman.

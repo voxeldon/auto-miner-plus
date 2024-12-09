@@ -1,0 +1,74 @@
+pack.name=Auto-Miner Plus
+pack.description=Auto-Miner v2.0.0
+
+tile.vxl_core:artisan_table.name=Занаятчийска маса
+
+action.interact.vxl_auto.interact=Взаимодействайте
+tile.vxl_auto:item_pump.name=Артикул Помпа
+entity.vxl_auto:auto_miner.name=Автоматичен копач
+entity.vxl_auto:entity_spawner.name=Auto-Miner Spawner
+
+item.vxl_auto:tool=Auto-Miner Manager
+
+item.vxl_auto:auto_miner_placer_default=Автоматичен копач
+item.vxl_auto:auto_miner_placer_black=Черен авто-миньор
+item.vxl_auto:auto_miner_placer_blue=Син авто-миньор
+item.vxl_auto:auto_miner_placer_brown=Кафяв авто-миньор
+item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-Miner
+item.vxl_auto:auto_miner_placer_green=Зелен авто-миньор
+item.vxl_auto:auto_miner_placer_light_blue=Светло син автоматичен копач
+item.vxl_auto:auto_miner_placer_lime=Лайм Авто-Минер
+item.vxl_auto:auto_miner_placer_magenta=Magenta Auto-Miner
+item.vxl_auto:auto_miner_placer_orange=Orange Auto-Miner
+item.vxl_auto:auto_miner_placer_pink=Розов авто-миньор
+item.vxl_auto:auto_miner_placer_purple=Лилав автоматичен копач
+item.vxl_auto:auto_miner_placer_red=Червен авто-миньор
+item.vxl_auto:auto_miner_placer_yellow=Жълт авто-миньор
+item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
+
+acm.vxl_auto.pack_name=Автоматичен копач
+acm.vxl_auto.author_name=Донтедев
+acm.vxl_auto.description=Автономен робот-придружител, който помага при копаене и строителство.
+acm.vxl_auto.allow_teleport=Позволете на играчите да се телепортират към Auto-Miners
+
+vxl_auto.detachment_warning=вече не е прикрепен към an
+
+vxl_auto.interface.home_title=Auto-Miner Manager
+vxl_auto.interface.home_body=Изберете Auto-Miner
+vxl_auto.interface.button_back=Назад
+vxl_auto.interface.modes=Специални режими
+vxl_auto.interface.modes_body=Специални режими
+vxl_auto.interface.pilot=Пилотен авто-миньор
+vxl_auto.interface.home_body_no_entry=Не са намерени притежавани Auto-Miners
+vxl_auto.interface.selected_auto_miner_body=Изберете опция
+vxl_auto.interface.selected_auto_miner_dimension_error=Трябва да сте в същото измерение като избрания Auto-Miner, за да използвате тези функции.
+vxl_auto.interface.turn_right=Обърни се надясно
+vxl_auto.interface.turn_left=Завийте наляво
+vxl_auto.interface.stop=Спрете двигателя
+vxl_auto.interface.start=Стартирайте двигателя
+vxl_auto.interface.exit_camera=Изход от камерата
+vxl_auto.interface.recall=Припомнете си
+vxl_auto.interface.teleport=Телепортиране до
+vxl_auto.interface.start_build_bridge=Стартирайте Bridge Chip
+vxl_auto.interface.stop_build_bridge=Спрете Bridge Chip
+
+vxl_auto.interface.home_title_pump=Интерфейс артикул-помпа
+vxl_auto.interface.home_body_pump=Опции за свързване
+vxl_auto.interface.home_body_no_entry_pump=§4 Не са намерени автоматични копачи, оборудвани с Hopper.
+vxl_auto.interface.selected_auto_body_connected=Свързан
+vxl_auto.interface.selected_auto_body_route=Маршрут
+vxl_auto.interface.button_back_pump=Назад
+vxl_auto.interface.button_route=§2 Маршрут до помпата
+vxl_auto.interface.button_unroute=§4 Отмяна на маршрута от помпата
+
+
+vxl_auto.common_lang.plural=е
+vxl_auto.common_lang.auto_miner=Автоматичен копач
+vxl_auto.common_lang.spawn_error=Грешка при стартирането на Auto-Miner
+vxl_auto.common_lang.cant_dye_unique_skins=Уникалните кожи не могат да бъдат боядисани.
+vxl_auto.common_lang.already_this_color=Auto-Miner вече е в този цвят.
+vxl_auto.common_lang.not_owner=Вие не притежавате този автоматичен копач
+vxl_auto.common_lang.upgrade_equipped=Оборудван ъпгрейд.
+vxl_auto.common_lang.already_equipped=Тази надстройка вече е оборудвана.
+vxl_auto.common_lang.item_pump=Предмет-помпа
+vxl_auto.common_lang.cant_teleport_warning=§4 Не може да се телепортира към Auto-Miner, опасно местоположение.

@@ -7,6 +7,7 @@ import { Vector3 } from "../../_import/spec/_module/util/vector";
 import { lang, propertyId } from "../../global";
 import { Inventory } from "../../_import/spec/_module/util/inventory";
 import { AutoMinerNavigation } from "./navigation";
+import { RawText } from "../../_import/spec/_module/util/raw_text";
 
 export class AutoMinerInteracts {
 
@@ -20,10 +21,10 @@ export class AutoMinerInteracts {
         if (!canpickupItems) {
             entity.setProperty(propertyId.pickupItems, true);
             Inventory.reduceItem(player, itemStack);
-            player.onScreenDisplay.setActionBar(lang.upgradeEquipped);
+            player.onScreenDisplay.setActionBar(RawText.TRANSLATE(lang.upgradeEquipped));
             player.playSound('vxl_auto.upgrade');
         } else {
-            player.onScreenDisplay.setActionBar(lang.alreadyEquipped);
+            player.onScreenDisplay.setActionBar(RawText.TRANSLATE(lang.alreadyEquipped));
             player.playSound('vxl_auto.error');
         }
     }

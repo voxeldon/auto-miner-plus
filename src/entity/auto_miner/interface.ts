@@ -23,7 +23,7 @@ export class AutoMinerInterface {
         form.addTextField('name', 'Set Code name.', entity.nameTag, entity.nameTag);
         form.showForm(player).then((data: ModelFormFormReturnData) => {
             const newName: FormValue | undefined = data.indexMap?.get('name');
-            entity.nameTag = newName as string;
+            if (newName) entity.nameTag = newName as string;
         }).catch((error: any) => {console.error(error);});
     }
 }

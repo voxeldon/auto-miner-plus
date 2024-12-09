@@ -8,6 +8,7 @@ import { CommonOperations } from "../../util/common_operations";
 import { SDB } from "../../_import/spec/_module/util/db";
 import { ItemOperations } from "../../_import/spec/_module/util/item";
 import { Inventory } from "../../_import/spec/_module/util/inventory";
+import { RawText } from "../../_import/spec/_module/util/raw_text";
 
 export class ItemPump {
 
@@ -25,7 +26,16 @@ export class ItemPump {
                 const routePath = autoMiner.getDynamicProperty(propertyId.routePathId) as string | undefined;
                 if (routePath && routePath === event.entity.id) {
                     autoMiner.setDynamicProperty(propertyId.routePathId, undefined);
-                    console.warn('cleared route path');
+                    const owner = world.getEntity(ownerId) as Player | undefined;
+                    if (owner) owner.sendMessage(
+                        RawText.MESSAGE(
+                            RawText.TEXT(`§6${autoMiner.nameTag}`),
+                            RawText.TEXT(' §4'), 
+                            RawText.TRANSLATE('vxl_auto.detachment_warning'), 
+                            RawText.TEXT(' '), 
+                            RawText.TRANSLATE('tile.vxl_auto:item_pump.name')
+                        )
+                    )
                 }
             }
         }
@@ -37,7 +47,6 @@ export class ItemPump {
         const owner: Player | undefined = SpawnManager.getOwnerFromIndex(indexAdress);
         if (owner) {
             entity.setDynamicProperty(propertyId.owner, owner.id);
-            entity.nameTag = `${owner.nameTag}${lang.plural} ${lang.itemPump}`
         }
     }
 
