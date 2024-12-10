@@ -31,6 +31,35 @@ const spawnManager: AddonConfiguration = {
             label: 'allow_teleport',
             defaultValue: true
         }
+    ],
+    guideKeys: [
+        "guide.title",
+        "guide.warn_header",
+        "guide.warn_body",
+        "guide.a_miner_header",
+        "guide.a_miner_description",
+        "guide.toggle_engines",
+        "guide.toggle_rotation",
+        "guide.change_color",
+        "guide.item_collection",
+        "guide.increase_speed",
+        "guide.tiers",
+        "guide.pump_header",
+        "guide.pump_description",
+        "guide.connection_options",
+        "guide.connection_menu",
+        "guide.inventory_drain",
+        "guide.tool_header",
+        "guide.tool_description",
+        "guide.pilot_header",
+        "guide.pilot_controls",
+        "guide.pilot_controls_details",
+        "guide.pilot_mode",
+        "guide.recall_header",
+        "guide.recall",
+        "guide.teleport_to_header",
+        "guide.teleport_to",
+        "guide.return_prompt"
     ]
 }
 AcmApi.generateAddonProfile(spawnManager);

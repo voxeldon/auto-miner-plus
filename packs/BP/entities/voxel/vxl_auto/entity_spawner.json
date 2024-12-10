@@ -76,6 +76,7 @@
 			}
 		},
 		"components": {
+			"minecraft:type_family": {"family": ["utility"]},
 			"minecraft:projectile": {
                 "power": 0.0,"gravity": 0.0,"inertia": 0,"anchor": 0,
                 "uncertainty_base": 0.0, "offset": [ 0, 0.0, 0],

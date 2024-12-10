@@ -4,13 +4,13 @@
     "description": "pack.description",
     "name": "pack.name",
     "uuid": "2caba1b2-6cc0-4f98-bb3a-a2927dcc46ec", 
-    "version": [1, 0, 0],
-    "min_engine_version": [1, 20, 81]
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [1, 21, 50]
   },
   "modules": [{
       "type": "resources",
       "uuid": "c1436bdc-7036-40fa-a4cc-e776decff6d0",
-      "version": [1, 0, 0]
+      "version": [ 1, 0, 0 ]
     }
   ],
   "dependencies": [
