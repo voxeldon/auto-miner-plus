@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Rode automijnwerker
 item.vxl_auto:auto_miner_placer_yellow=Gele automijnwerker
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Automijnwerker
 
-acm.vxl_auto.pack_name=Auto-mijnwerker
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Een autonome robotmetgezel om te helpen bij mijnbouw en constructie.
-acm.vxl_auto.allow_teleport=Laat spelers teleporteren naar Auto-Miners
-
 vxl_auto.detachment_warning=is niet langer gekoppeld aan een
-
 vxl_auto.interface.home_title=Automijnbeheerder
 vxl_auto.interface.home_body=Selecteer een automatische mijnwerker
 vxl_auto.interface.button_back=Rug
@@ -44,7 +38,7 @@ vxl_auto.interface.selected_auto_miner_body=Kies een optie
 vxl_auto.interface.selected_auto_miner_dimension_error=U moet zich in dezelfde dimensie bevinden als de geselecteerde Auto-Miner om deze functies te kunnen gebruiken.
 vxl_auto.interface.turn_right=Sla rechtsaf
 vxl_auto.interface.turn_left=Sla linksaf
-vxl_auto.interface.stop=Motor stoppen
+vxl_auto.interface.stop=Stop de motor
 vxl_auto.interface.start=Start de motor
 vxl_auto.interface.exit_camera=Sluit Camera af
 vxl_auto.interface.recall=Herinneren
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Rug
 vxl_auto.interface.button_route=§2Route naar pomp
 vxl_auto.interface.button_unroute=§4Verwijder de route van de pomp
 
-
 vxl_auto.common_lang.plural='S
 vxl_auto.common_lang.auto_miner=Auto-mijnwerker
 vxl_auto.common_lang.spawn_error=Fout bij het genereren van Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Upgrade uitgerust.
 vxl_auto.common_lang.already_equipped=Deze upgrade is al uitgerust.
 vxl_auto.common_lang.item_pump=Artikel-pomp
 vxl_auto.common_lang.cant_teleport_warning=§4Kan niet teleporteren naar Auto-Miner, onveilige locatie.
+
+acm.vxl_auto.pack_name=§2Automijnwerker
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Een autonome robotmetgezel om te helpen bij mijnbouw en constructie.
+acm.vxl_auto.allow_teleport=Laat spelers teleporteren naar Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6 Gids voor automatische mijnbouw!§r
+acm.vxl_auto.guide.warn_header=§l§4Waarschuwing!§r
+acm.vxl_auto.guide.warn_body=Auto-Mijnwerkers zijn tikkende entiteiten. Als er te veel in een wereld zijn, kan dit vertraging of andere prestatieproblemen veroorzaken.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-mijnwerker§r
+acm.vxl_auto.guide.a_miner_description=De Auto-Miner is een complexe machine met een verscheidenheid aan functies.
+acm.vxl_auto.guide.toggle_engines=- Schakel de motoren §2aan§r en §4uit§r in door §3interactie§r ermee te maken.
+acm.vxl_auto.guide.toggle_rotation=- Schakel de rotatie ervan in door §3sneak-interactie§r ermee.
+acm.vxl_auto.guide.change_color=- Verander de kleur door §3interactie§r ermee met behulp van kleurstof.
+acm.vxl_auto.guide.item_collection=- Schakel de itemverzamelingsmodus in door §3interactie§r ermee via een hopper.
+acm.vxl_auto.guide.increase_speed=- Verhoog de snelheid door §3interactie§r met ertsblokken van een hoger niveau.
+acm.vxl_auto.guide.tiers=§4IJzer (standaard), §6Koper (niveau 2), §2Goud (niveau 3), §3Diamant (niveau 4), §5Netheriet (niveau 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Artikel-Pomp§r
+acm.vxl_auto.guide.pump_description=De Item-Pump kan worden verbonden met niet-gerouteerde Auto-Mijnwerkers die eigendom zijn van de speler die de Item-Pump heeft geplaatst.
+acm.vxl_auto.guide.connection_options=Om toegang te krijgen tot de verbindingsopties van de Item-Pump, moet je communiceren met de geplaatste Item-Pump.
+acm.vxl_auto.guide.connection_menu=Hierdoor wordt een menu geopend waarmee u met hoppers uitgeruste Auto-Miners naar de geselecteerde itempomp kunt selecteren, routeren en de route ervan kunt verwijderen.
+acm.vxl_auto.guide.inventory_drain=Alle gerouteerde Auto-Miners zullen dan beginnen met het afvoeren van hun inventaris naar de aangesloten Item-Pump.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=Nieuw in de add-on: het Auto-Miner Manager-item biedt meer controle over uw Auto-Miners.
+acm.vxl_auto.guide.pilot_header=§l§6Piloot:§r
+acm.vxl_auto.guide.pilot_controls=- Spelers kunnen hun Auto-Miners nu besturen met basisbediening.
+acm.vxl_auto.guide.pilot_controls_details=- Sla rechtsaf, draai links, start de motor en stop de motor.
+acm.vxl_auto.guide.pilot_mode=- In de pilotmodus wordt de camera van de speler ingesteld op de geselecteerde Auto-Miner-weergave.
+acm.vxl_auto.guide.recall_header=§l§4Herroepen:§r
+acm.vxl_auto.guide.recall=- Wanneer u hierop drukt, worden de geselecteerde Auto-Miner en zijn bijlagen teruggestuurd naar de locatie van de speler.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleporteren naar:§r
+acm.vxl_auto.guide.teleport_to=- Indien ingeschakeld kunnen spelers teleporteren naar de geselecteerde Auto-Miner-locatie.
+acm.vxl_auto.guide.return_prompt=- Na het teleporteren krijgt de speler de optie om terug te keren naar de laatst bekende locatie voorafgaand aan de teleport.
+
+

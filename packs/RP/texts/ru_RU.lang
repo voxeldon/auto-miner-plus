@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Красный Авто-Шахтер
 item.vxl_auto:auto_miner_placer_yellow=Желтый Авто-Майнер
 item.vxl_auto:auto_miner_placer_rainbow=Радужный авто-майнер
 
-acm.vxl_auto.pack_name=Авто-Майнер
-acm.vxl_auto.author_name=Донтедев
-acm.vxl_auto.description=Автономный робот-компаньон, который поможет в добыче полезных ископаемых и строительстве.
-acm.vxl_auto.allow_teleport=Разрешить игрокам телепортироваться к автомайнерам
-
 vxl_auto.detachment_warning=больше не привязан к
-
 vxl_auto.interface.home_title=Менеджер Авто-Майнера
 vxl_auto.interface.home_body=Выберите автоматический майнер
 vxl_auto.interface.button_back=Назад
@@ -61,14 +55,48 @@ vxl_auto.interface.button_back_pump=Назад
 vxl_auto.interface.button_route=§2Путь к насосу
 vxl_auto.interface.button_unroute=§4Отмена маршрутизации от насоса
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Авто-Майнер
-vxl_auto.common_lang.spawn_error=Ошибка создания Auto-Miner
+vxl_auto.common_lang.spawn_error=Ошибка при запуске Auto-Miner
 vxl_auto.common_lang.cant_dye_unique_skins=Уникальные скины нельзя покрасить.
 vxl_auto.common_lang.already_this_color=Авто-Майнер уже такого цвета.
-vxl_auto.common_lang.not_owner=У вас нет этого автомайнера
+vxl_auto.common_lang.not_owner=У вас нет этого авто-майнера
 vxl_auto.common_lang.upgrade_equipped=Обновление оборудовано.
 vxl_auto.common_lang.already_equipped=Это обновление уже оборудовано.
 vxl_auto.common_lang.item_pump=Товар-насос
 vxl_auto.common_lang.cant_teleport_warning=§4Невозможно телепортироваться в Auto-Miner, небезопасное место.
+
+acm.vxl_auto.pack_name=§2Авто-Майнер
+acm.vxl_auto.author_name=Донтедев
+acm.vxl_auto.description=Автономный робот-компаньон, который поможет в добыче полезных ископаемых и строительстве.
+acm.vxl_auto.allow_teleport=Разрешить игрокам телепортироваться к автомайнерам
+
+acm.vxl_auto.guide.title=§l§6Руководство по автомайнеру!§r
+acm.vxl_auto.guide.warn_header=§l§4Внимание!§r
+acm.vxl_auto.guide.warn_body=Авто-майнеры — это тиковые сущности. Слишком большое количество игроков в мире может привести к задержкам или другим проблемам с производительностью.
+acm.vxl_auto.guide.a_miner_header=§l§2Автомайнер§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner — сложная машина с множеством функций.
+acm.vxl_auto.guide.toggle_engines=- Включите §2§r и §4выключите§r его движков, §3взаимодействуя с ним§r.
+acm.vxl_auto.guide.toggle_rotation=- Переключите его вращение, §3sneak-interacting§r с ним.
+acm.vxl_auto.guide.change_color=- Измените его цвет, §3взаимодействуя§r с ним с помощью красителя.
+acm.vxl_auto.guide.item_collection=- Включите режим сбора предметов, §3взаимодействуя§r с ним с помощью бункера.
+acm.vxl_auto.guide.increase_speed=- Увеличьте его скорость, §3взаимодействуя§r с ним, используя блоки руды более высокого уровня.
+acm.vxl_auto.guide.tiers=§4Железо (по умолчанию), §6Медь (Уровень 2), §2Золото (Уровень 3), §3Алмаз (Уровень 4), §5Незерит (Уровень 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Предмет-Насос§r
+acm.vxl_auto.guide.pump_description=Item-Pump можно подключить к ненаправленным авто-майнерам, принадлежащим игроку, разместившему Item-Pump.
+acm.vxl_auto.guide.connection_options=Чтобы получить доступ к параметрам подключения Item-Pump, взаимодействуйте с размещенным Item-Pump.
+acm.vxl_auto.guide.connection_menu=Откроется меню, которое позволит вам выбирать, маршрутизировать и отменять маршрутизацию автоматических майнеров, оборудованных бункером, к выбранному предметному насосу.
+acm.vxl_auto.guide.inventory_drain=Все перенаправленные авто-майнеры начнут перекачивать свои запасы в подключенный Item-Pump.
+acm.vxl_auto.guide.tool_header=§l§5Менеджер автоматического майнинга§r
+acm.vxl_auto.guide.tool_description=Новое в дополнении: элемент Auto-Miner Manager обеспечивает больший контроль над вашими автоматическими майнерами.
+acm.vxl_auto.guide.pilot_header=§l§6Пилот:§r
+acm.vxl_auto.guide.pilot_controls=- Игроки теперь могут пилотировать свои автошахтеры с помощью базовых элементов управления.
+acm.vxl_auto.guide.pilot_controls_details=- Поверните направо, поверните налево, запустите двигатель и остановите двигатель.
+acm.vxl_auto.guide.pilot_mode=- В пилотном режиме камера игрока будет настроена на выбранный вид Auto-Miner.
+acm.vxl_auto.guide.recall_header=§l§4Отзыв:§r
+acm.vxl_auto.guide.recall=- При нажатии выбранный Авто-Майнер и его вложения будут возвращены на место игрока.
+acm.vxl_auto.guide.teleport_to_header=§l§2Телепортироваться куда:§r
+acm.vxl_auto.guide.teleport_to=- Если эта функция включена, игроки могут телепортироваться к выбранному местоположению авто-шахтера.
+acm.vxl_auto.guide.return_prompt=- После телепортации игроку будет предложено вернуться в последнее известное ему место до телепортации.
+
+

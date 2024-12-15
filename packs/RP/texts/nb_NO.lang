@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Rød Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Gul Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-gruvearbeider
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=En autonom robotkamerat som hjelper til med gruvedrift og konstruksjon.
-acm.vxl_auto.allow_teleport=Tillat spillere å teleportere til Auto-Miners
-
 vxl_auto.detachment_warning=er ikke lenger knyttet til en
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Velg en Auto-Miner
 vxl_auto.interface.button_back=Tilbake
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Tilbake
 vxl_auto.interface.button_route=§2Rute til pumpe
 vxl_auto.interface.button_unroute=§4Fjern rute fra pumpe
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-gruvearbeider
 vxl_auto.common_lang.spawn_error=Feil under gyting av Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Oppgradering utstyrt.
 vxl_auto.common_lang.already_equipped=Denne oppgraderingen er allerede utstyrt.
 vxl_auto.common_lang.item_pump=Vare-Pumpe
 vxl_auto.common_lang.cant_teleport_warning=§4Kan ikke teleportere til Auto-Miner, usikker plassering.
+
+acm.vxl_auto.pack_name=§2Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=En autonom robotkamerat som hjelper til med gruvedrift og konstruksjon.
+acm.vxl_auto.allow_teleport=Tillat spillere å teleportere til Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Advarsel!§r
+acm.vxl_auto.guide.warn_body=Auto-miners er tikkende enheter. Å ha for mange i en verden kan føre til etterslep eller andre ytelsesproblemer.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner er en kompleks maskin med en rekke funksjoner.
+acm.vxl_auto.guide.toggle_engines=- Veksle motorene §2on§r og §4off§r ved å §3samhandle§r med den.
+acm.vxl_auto.guide.toggle_rotation=- Veksle dens rotasjon ved å §3snik-interagere§r med den.
+acm.vxl_auto.guide.change_color=- Endre fargen ved å §3samhandle§r med den ved å bruke fargestoff.
+acm.vxl_auto.guide.item_collection=- Aktiver vareinnsamlingsmodusen ved å §3samhandle§r med den ved hjelp av en trakt.
+acm.vxl_auto.guide.increase_speed=- Øk hastigheten ved å §3samhandle§r med den ved å bruke malmblokker på høyere nivå.
+acm.vxl_auto.guide.tiers=§4Jern (standard), §6Kobber (Tier 2), §2Gull (Tier 3), §3Diamond (Tier 4), §5Netherite (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Vare-Pumpe§r
+acm.vxl_auto.guide.pump_description=Varepumpen kan kobles til urutede autogruvearbeidere som eies av spilleren som plasserte varepumpen.
+acm.vxl_auto.guide.connection_options=For å få tilgang til varepumpens tilkoblingsalternativer, samhandle med den plasserte varepumpen.
+acm.vxl_auto.guide.connection_menu=Dette vil åpne en meny som lar deg velge, rute og fjerne ruter-utstyrte autogruvearbeidere til den valgte varepumpen.
+acm.vxl_auto.guide.inventory_drain=Alle rutede autominere vil da begynne å tømme varebeholdningen til den tilkoblede varepumpen.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=Ny i tillegget, Auto-Miner Manager-elementet gir større kontroll over Auto-Miners.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Spillere kan nå styre sine Auto-Miners med grunnleggende kontroller.
+acm.vxl_auto.guide.pilot_controls_details=- Sving til høyre, sving til venstre, start motor og stopp motor.
+acm.vxl_auto.guide.pilot_mode=- Mens du er i pilotmodus, vil spillerens kamera bli satt til den valgte Auto-Miner-visningen.
+acm.vxl_auto.guide.recall_header=§l§4Tilbakekalling:§r
+acm.vxl_auto.guide.recall=- Når du trykker, vil den valgte Auto-Miner og dens vedlegg bli returnert til spillerens plassering.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleporter til:§r
+acm.vxl_auto.guide.teleport_to=- Når den er aktivert, kan spillere teleportere til den valgte autogruvearbeiderens plassering.
+acm.vxl_auto.guide.return_prompt=- Etter teleportering vil den be spilleren om å gå tilbake til sin sist kjente plassering før teleporteringen.
+
+

@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Red Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Yellow Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=An autonomous robot companion to assist with mining and construction.
-acm.vxl_auto.allow_teleport=Allow players to teleport to Auto-Miners
-
 vxl_auto.detachment_warning=is no longer attached to an
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Select an Auto-Miner
 vxl_auto.interface.button_back=Back
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Back
 vxl_auto.interface.button_route=§2Route To Pump
 vxl_auto.interface.button_unroute=§4Unroute From Pump
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Error spawning Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Upgrade equipped.
 vxl_auto.common_lang.already_equipped=This upgrade is already equipped.
 vxl_auto.common_lang.item_pump=Item-Pump
 vxl_auto.common_lang.cant_teleport_warning=§4Can not teleport to Auto-Miner, Unsafe location.
+
+acm.vxl_auto.pack_name=§2Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=An autonomous robot companion to assist with mining and construction.
+acm.vxl_auto.allow_teleport=Allow players to teleport to Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Warning!§r
+acm.vxl_auto.guide.warn_body=Auto-Miners are ticking entities. Having too many in a world may cause lag or other performance issues.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=The Auto-Miner is a complex machine with a variety of features.
+acm.vxl_auto.guide.toggle_engines=- Toggle its engines §2on§r and §4off§r by §3interacting§r with it.
+acm.vxl_auto.guide.toggle_rotation=- Toggle its rotation by §3sneak-interacting§r with it.
+acm.vxl_auto.guide.change_color=- Change its color by §3interacting§r with it using dye.
+acm.vxl_auto.guide.item_collection=- Enable its item collection mode by §3interacting§r with it using a hopper.
+acm.vxl_auto.guide.increase_speed=- Increase its speed by §3interacting§r with it using higher-tier ore blocks.
+acm.vxl_auto.guide.tiers=§4Iron (Default), §6Copper (Tier 2), §2Gold (Tier 3), §3Diamond (Tier 4), §5Netherite (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Item-Pump§r
+acm.vxl_auto.guide.pump_description=The Item-Pump can be connected to unrouted Auto-Miners owned by the player who placed the Item-Pump.
+acm.vxl_auto.guide.connection_options=To access the Item-Pump's connection options, interact with the placed Item-Pump.
+acm.vxl_auto.guide.connection_menu=This will open a menu that allows you to select, route, and unroute hopper-equipped Auto-Miners to the selected Item-Pump.
+acm.vxl_auto.guide.inventory_drain=All routed Auto-Miners will then start draining their inventories to the connected Item-Pump.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=New to the addon, the Auto-Miner Manager item provides greater control over your Auto-Miners.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Players can now pilot their Auto-Miners with basic controls.
+acm.vxl_auto.guide.pilot_controls_details=- Turn Right, Turn Left, Start Engine, & Stop Engine.
+acm.vxl_auto.guide.pilot_mode=- While in pilot mode, the player's camera will be set to the selected Auto-Miner's view.
+acm.vxl_auto.guide.recall_header=§l§4Recall:§r
+acm.vxl_auto.guide.recall=- When pressed, the selected Auto-Miner and its attachments will be returned to the player's location.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleport To:§r
+acm.vxl_auto.guide.teleport_to=- When enabled, players can teleport to the selected Auto-Miner's location.
+acm.vxl_auto.guide.return_prompt=- After teleporting, it will prompt the player with an option to return to their last known location prior to the teleport.
+
+

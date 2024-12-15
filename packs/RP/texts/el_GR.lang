@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Red Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Κίτρινο Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Ο Ντοντέντεφ
-acm.vxl_auto.description=Ένας αυτόνομος σύντροφος ρομπότ που βοηθά στην εξόρυξη και την κατασκευή.
-acm.vxl_auto.allow_teleport=Επιτρέψτε στους παίκτες να τηλεμεταφέρονται σε Auto-Miners
-
 vxl_auto.detachment_warning=δεν είναι πλέον προσαρτημένο σε ένα
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Επιλέξτε ένα Auto-Miner
 vxl_auto.interface.button_back=Πίσω
@@ -43,7 +37,7 @@ vxl_auto.interface.home_body_no_entry=Δεν βρέθηκαν ιδιόκτητα
 vxl_auto.interface.selected_auto_miner_body=Επιλέξτε μια επιλογή
 vxl_auto.interface.selected_auto_miner_dimension_error=Πρέπει να είστε στην ίδια διάσταση με το επιλεγμένο Auto-Miner για να χρησιμοποιήσετε αυτές τις δυνατότητες.
 vxl_auto.interface.turn_right=Στρίψτε δεξιά
-vxl_auto.interface.turn_left=Στρίψτε Αριστερά
+vxl_auto.interface.turn_left=Στρίψτε αριστερά
 vxl_auto.interface.stop=Stop Engine
 vxl_auto.interface.start=Εκκινήστε τον κινητήρα
 vxl_auto.interface.exit_camera=Έξοδος από την κάμερα
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Πίσω
 vxl_auto.interface.button_route=§2 Διαδρομή προς αντλία
 vxl_auto.interface.button_unroute=§4Κατάργηση διαδρομής από την αντλία
 
-
 vxl_auto.common_lang.plural='μικρό
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Σφάλμα αναπαραγωγής Auto-Miner
@@ -71,4 +64,39 @@ vxl_auto.common_lang.not_owner=Δεν σας ανήκει αυτό το auto-min
 vxl_auto.common_lang.upgrade_equipped=Εξοπλισμός αναβάθμισης.
 vxl_auto.common_lang.already_equipped=Αυτή η αναβάθμιση είναι ήδη εξοπλισμένη.
 vxl_auto.common_lang.item_pump=Είδος-Αντλία
-vxl_auto.common_lang.cant_teleport_warning=§4 Δεν είναι δυνατή η τηλεμεταφορά σε Auto-Miner, Μη ασφαλής τοποθεσία.
+vxl_auto.common_lang.cant_teleport_warning=§4Δεν είναι δυνατή η τηλεμεταφορά σε Auto-Miner, Μη ασφαλής τοποθεσία.
+
+acm.vxl_auto.pack_name=§2 Auto-Miner
+acm.vxl_auto.author_name=Ο Ντοντέντεφ
+acm.vxl_auto.description=Ένας αυτόνομος σύντροφος ρομπότ που βοηθά στην εξόρυξη και την κατασκευή.
+acm.vxl_auto.allow_teleport=Επιτρέψτε στους παίκτες να τηλεμεταφέρονται σε Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6 Οδηγός Auto-Miner!§r
+acm.vxl_auto.guide.warn_header=§l§4Προειδοποίηση!§r
+acm.vxl_auto.guide.warn_body=Οι Auto-Miners είναι οντότητες. Η ύπαρξη πάρα πολλών σε έναν κόσμο μπορεί να προκαλέσει καθυστέρηση ή άλλα προβλήματα απόδοσης.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Το Auto-Miner είναι ένα πολύπλοκο μηχάνημα με ποικίλα χαρακτηριστικά.
+acm.vxl_auto.guide.toggle_engines=- Ενεργοποιήστε τους κινητήρες του §2on§r και §4off§r §3αλληλεπιδρώντας§r μαζί του.
+acm.vxl_auto.guide.toggle_rotation=- Εναλλάξτε την περιστροφή του §3 αλληλεπιδρώντας με αυτό.
+acm.vxl_auto.guide.change_color=- Αλλάξτε το χρώμα του §3 αλληλεπιδρώντας§r μαζί του χρησιμοποιώντας βαφή.
+acm.vxl_auto.guide.item_collection=- Ενεργοποιήστε τη λειτουργία συλλογής αντικειμένων §3 αλληλεπιδρώντας§r μαζί του χρησιμοποιώντας μια χοάνη.
+acm.vxl_auto.guide.increase_speed=- Αυξήστε την ταχύτητά του §3 αλληλεπιδρώντας§r μαζί του χρησιμοποιώντας μπλοκ μεταλλεύματος υψηλότερης βαθμίδας.
+acm.vxl_auto.guide.tiers=§4 Σίδηρος (Προεπιλογή), §6 Χαλκός (Βαθμίδα 2), §2 Χρυσός (Βαθμίδα 3), §3 Διαμάντι (Βαθμίδα 4), §5 Νεθερίτης (Βαθμίδα 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Είδος-Αντλία§r
+acm.vxl_auto.guide.pump_description=Το Item-Pump μπορεί να συνδεθεί με μη δρομολογημένα Auto-Miners που ανήκουν στον παίκτη που τοποθέτησε το Item-Pump.
+acm.vxl_auto.guide.connection_options=Για πρόσβαση στις επιλογές σύνδεσης του Item-Pump, αλληλεπιδράστε με το τοποθετημένο Item-Pump.
+acm.vxl_auto.guide.connection_menu=Αυτό θα ανοίξει ένα μενού που σας επιτρέπει να επιλέξετε, να δρομολογήσετε και να αφαιρέσετε τη διαδρομή Auto-Miners που είναι εξοπλισμένα με χοάνη στο επιλεγμένο Item-Pump.
+acm.vxl_auto.guide.inventory_drain=Όλα τα δρομολογημένα Auto-Miners θα αρχίσουν στη συνέχεια να αποστραγγίζουν τα αποθέματά τους στο συνδεδεμένο Item-Pump.
+acm.vxl_auto.guide.tool_header=§l§5 Διαχείριση Auto-Miner§r
+acm.vxl_auto.guide.tool_description=Νέο στο πρόσθετο, το στοιχείο Auto-Miner Manager παρέχει μεγαλύτερο έλεγχο στα Auto-Miners σας.
+acm.vxl_auto.guide.pilot_header=§l§6 Πιλότος:§ρ
+acm.vxl_auto.guide.pilot_controls=- Οι παίκτες μπορούν πλέον να πιλοτάρουν τα Auto-Miners τους με βασικά χειριστήρια.
+acm.vxl_auto.guide.pilot_controls_details=- Στρίψτε δεξιά, στρίψτε αριστερά, εκκινήστε τον κινητήρα και σταματήστε τον κινητήρα.
+acm.vxl_auto.guide.pilot_mode=- Ενώ βρίσκεται σε πιλοτική λειτουργία, η κάμερα του προγράμματος αναπαραγωγής θα ρυθμιστεί στην επιλεγμένη προβολή Auto-Miner's.
+acm.vxl_auto.guide.recall_header=§l§4 Ανάκληση:§r
+acm.vxl_auto.guide.recall=- Όταν πατηθεί, το επιλεγμένο Auto-Miner και τα συνημμένα του θα επιστραφούν στη θέση του προγράμματος αναπαραγωγής.
+acm.vxl_auto.guide.teleport_to_header=§l§2Τηλεμεταφορά σε:§r
+acm.vxl_auto.guide.teleport_to=- Όταν είναι ενεργοποιημένο, οι παίκτες μπορούν να τηλεμεταφέρονται στην επιλεγμένη τοποθεσία Auto-Miner.
+acm.vxl_auto.guide.return_prompt=- Μετά την τηλεμεταφορά, θα ζητηθεί από τη συσκευή αναπαραγωγής να επιστρέψει στην τελευταία γνωστή τοποθεσία πριν από την τηλεμεταφορά.
+
+

@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Červený Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Žlutý Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Dontheděv
-acm.vxl_auto.description=Autonomní robotický společník, který pomáhá při těžbě a stavbě.
-acm.vxl_auto.allow_teleport=Umožněte hráčům teleportovat se do Auto-Hinerů
-
 vxl_auto.detachment_warning=již není připojen k an
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Vyberte Auto-Miner
 vxl_auto.interface.button_back=Zadní
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Zadní
 vxl_auto.interface.button_route=§2 Cesta k čerpadlu
 vxl_auto.interface.button_unroute=§4Odvést z pumpy
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Chyba při vytváření Auto-Mineru
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Upgrade vybaven.
 vxl_auto.common_lang.already_equipped=Tento upgrade je již vybaven.
 vxl_auto.common_lang.item_pump=Item-Pump
 vxl_auto.common_lang.cant_teleport_warning=§4Nelze se teleportovat do Auto-Mineru, Nebezpečné umístění.
+
+acm.vxl_auto.pack_name=§2 Auto-Miner
+acm.vxl_auto.author_name=Dontheděv
+acm.vxl_auto.description=Autonomní robotický společník, který pomáhá při těžbě a stavbě.
+acm.vxl_auto.allow_teleport=Umožněte hráčům teleportovat se do Auto-Hinerů
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Pozor!§r
+acm.vxl_auto.guide.warn_body=Auto-Mineři jsou tikající entity. Příliš mnoho na světě může způsobit zpoždění nebo jiné problémy s výkonem.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner je komplexní stroj s řadou funkcí.
+acm.vxl_auto.guide.toggle_engines=- Přepněte jeho motory §2on§r a §4off§r §3interakcí§r s ním.
+acm.vxl_auto.guide.toggle_rotation=- Přepněte jeho otáčení o §3sneak-interacting§r s ním.
+acm.vxl_auto.guide.change_color=- Změňte jeho barvu §3interakcí§r s ním pomocí barviva.
+acm.vxl_auto.guide.item_collection=- Aktivujte jeho režim shromažďování položek §3interakcí§r s ním pomocí násypky.
+acm.vxl_auto.guide.increase_speed=- Zvyšte jeho rychlost §3interakcí§r s použitím bloků rudy vyšší úrovně.
+acm.vxl_auto.guide.tiers=§4Železo (výchozí), §6Měď (Tier 2), §2Zlato (Tier 3), §3Diamant (Tier 4), §5Netherit (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Položka-Pump§r
+acm.vxl_auto.guide.pump_description=Item-Pump lze připojit k neroutovaným Auto-Minerům vlastněným hráčem, který umístil Item-Pump.
+acm.vxl_auto.guide.connection_options=Pro přístup k možnostem připojení Item-Pump interagujte s umístěnou Item-Pump.
+acm.vxl_auto.guide.connection_menu=Tím se otevře nabídka, která vám umožní vybrat, nasměrovat a zrušit směrování automatických těžařů vybavených zásobníkem k vybranému čerpadlu položek.
+acm.vxl_auto.guide.inventory_drain=Všichni směrovaní Auto-Mineři pak začnou odčerpávat své zásoby do připojeného Item-Pumpu.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=Novinkou tohoto doplňku je položka Auto-Miner Manager, která poskytuje větší kontrolu nad vašimi Auto-Minery.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Hráči nyní mohou pilotovat své automatické těžaře se základními ovládacími prvky.
+acm.vxl_auto.guide.pilot_controls_details=- Otočte vpravo, otočte vlevo, nastartujte motor a vypněte motor.
+acm.vxl_auto.guide.pilot_mode=- V pilotním režimu bude kamera hráče nastavena na vybraný pohled Auto-Miner.
+acm.vxl_auto.guide.recall_header=§l§4Odvolání:§r
+acm.vxl_auto.guide.recall=- Po stisknutí se vybraný Auto-Miner a jeho přílohy vrátí do umístění hráče.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportovat Komu:§r
+acm.vxl_auto.guide.teleport_to=- Je-li povoleno, hráči se mohou teleportovat do vybraného umístění Auto-Mineru.
+acm.vxl_auto.guide.return_prompt=- Po teleportování vyzve hráče k možnosti vrátit se na poslední známé místo před teleportem.
+
+

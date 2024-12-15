@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=红色自动挖矿机
 item.vxl_auto:auto_miner_placer_yellow=黄色自动挖矿机
 item.vxl_auto:auto_miner_placer_rainbow=彩虹自动挖矿机
 
-acm.vxl_auto.pack_name=自动挖矿机
-acm.vxl_auto.author_name=顿泰德夫
-acm.vxl_auto.description=协助采矿和建筑的自主机器人伴侣。
-acm.vxl_auto.allow_teleport=允许玩家传送到自动矿工
-
 vxl_auto.detachment_warning=不再附加到
-
 vxl_auto.interface.home_title=自动挖矿管理器
 vxl_auto.interface.home_body=选择自动挖矿机
 vxl_auto.interface.button_back=后退
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=后退
 vxl_auto.interface.button_route=§2到泵的路线
 vxl_auto.interface.button_unroute=§4从泵取消路线
 
-
 vxl_auto.common_lang.plural=的
 vxl_auto.common_lang.auto_miner=自动挖矿机
 vxl_auto.common_lang.spawn_error=生成自动挖矿机时出错
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=升级装备。
 vxl_auto.common_lang.already_equipped=此升级已经配备。
 vxl_auto.common_lang.item_pump=项目泵
 vxl_auto.common_lang.cant_teleport_warning=§4无法传送到自动挖矿机、不安全的位置。
+
+acm.vxl_auto.pack_name=§2自动挖矿机
+acm.vxl_auto.author_name=顿泰德夫
+acm.vxl_auto.description=协助采矿和建筑的自主机器人伴侣。
+acm.vxl_auto.allow_teleport=允许玩家传送到自动矿工
+
+acm.vxl_auto.guide.title=§l§6自动挖矿指南！§r
+acm.vxl_auto.guide.warn_header=§l§4警告！§r
+acm.vxl_auto.guide.warn_body=自动矿工是滴答作响的实体。世界上太多可能会导致延迟或其他性能问题。
+acm.vxl_auto.guide.a_miner_header=§l§2自动挖矿机§r
+acm.vxl_auto.guide.a_miner_description=自动采矿机是一种具有多种功能的复杂机器。
+acm.vxl_auto.guide.toggle_engines=- 通过与其进行§3交互§r来切换其引擎§2on§r和§4off§r。
+acm.vxl_auto.guide.toggle_rotation=- 通过§3潜行交互§r来切换它的旋转。
+acm.vxl_auto.guide.change_color=- 使用染料§3与它交互§r来改变它的颜色。
+acm.vxl_auto.guide.item_collection=- 通过使用漏斗§3与其交互§r来启用其物品收集模式。
+acm.vxl_auto.guide.increase_speed=- 通过使用更高级别的矿石块与它§3交互§r来提高它的速度。
+acm.vxl_auto.guide.tiers=§4铁（默认），§6铜（第2级），§2金（第3级），§3钻石（第4级），§5下界合金（第5级）§r
+acm.vxl_auto.guide.pump_header=§l§3物品泵§r
+acm.vxl_auto.guide.pump_description=物品泵可以连接到放置物品泵的玩家拥有的未布线的自动采矿机。
+acm.vxl_auto.guide.connection_options=要访问物品泵的连接选项，请与放置的物品泵交互。
+acm.vxl_auto.guide.connection_menu=这将打开一个菜单，允许您选择、路由和取消路由配备料斗的自动采矿机到选定的项目泵。
+acm.vxl_auto.guide.inventory_drain=然后，所有路由的自动矿工将开始将其库存排出至连接的物品泵。
+acm.vxl_auto.guide.tool_header=§l§5自动挖矿管理器§r
+acm.vxl_auto.guide.tool_description=该插件的新增内容是，自动挖矿管理器项目可以更好地控制您的自动挖矿。
+acm.vxl_auto.guide.pilot_header=§l§6飞行员：§r
+acm.vxl_auto.guide.pilot_controls=- 玩家现在可以通过基本控制来驾驶他们的自动采矿机。
+acm.vxl_auto.guide.pilot_controls_details=- 右转、左转、启动发动机和停止发动机。
+acm.vxl_auto.guide.pilot_mode=- 在飞行员模式下，玩家的相机将设置为选定的自动矿工的视图。
+acm.vxl_auto.guide.recall_header=§l§4召回：§r
+acm.vxl_auto.guide.recall=- 按下时，所选的自动采矿机及其附件将返回玩家的位置。
+acm.vxl_auto.guide.teleport_to_header=§l§2传送至：§r
+acm.vxl_auto.guide.teleport_to=- 启用后，玩家可以传送到所选自动挖矿机的位置。
+acm.vxl_auto.guide.return_prompt=- 传送后，它会提示玩家选择返回传送前最后已知的位置。
+
+

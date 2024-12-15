@@ -98,3 +98,5 @@ acm.vxl_auto.guide.recall=- When pressed, the selected Auto-Miner and its attach
 acm.vxl_auto.guide.teleport_to_header=§l§2Teleport To:§r
 acm.vxl_auto.guide.teleport_to=- When enabled, players can teleport to the selected Auto-Miner's location.
 acm.vxl_auto.guide.return_prompt=- After teleporting, it will prompt the player with an option to return to their last known location prior to the teleport.
+
+

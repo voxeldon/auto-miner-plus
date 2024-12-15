@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Piros Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Sárga Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Egy autonóm robottárs a bányászat és az építőipar segítésére.
-acm.vxl_auto.allow_teleport=Engedélyezze a játékosoknak, hogy teleportáljanak az Auto-Minershez
-
 vxl_auto.detachment_warning=már nem kapcsolódik an
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Válasszon egy Auto-Miner-t
 vxl_auto.interface.button_back=Vissza
@@ -41,7 +35,7 @@ vxl_auto.interface.modes_body=Különleges módok
 vxl_auto.interface.pilot=Pilot Auto-Miner
 vxl_auto.interface.home_body_no_entry=Nem található saját Auto-Miners
 vxl_auto.interface.selected_auto_miner_body=Válasszon egy lehetőséget
-vxl_auto.interface.selected_auto_miner_dimension_error=A funkciók használatához ugyanabban a méretben kell lennie, mint a kiválasztott Auto-Miner.
+vxl_auto.interface.selected_auto_miner_dimension_error=A funkciók használatához ugyanabban a méretben kell lennie, mint a kiválasztott Auto-Minernek.
 vxl_auto.interface.turn_right=Forduljon Jobbra
 vxl_auto.interface.turn_left=Forduljon balra
 vxl_auto.interface.stop=Állítsa le a motort
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Vissza
 vxl_auto.interface.button_route=§2 Útvonal a szivattyúhoz
 vxl_auto.interface.button_unroute=§4 Leválasztás a szivattyúból
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Hiba az Auto-Miner létrehozásakor
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Frissítéssel felszerelt.
 vxl_auto.common_lang.already_equipped=Ez a frissítés már fel van szerelve.
 vxl_auto.common_lang.item_pump=Tétel-szivattyú
 vxl_auto.common_lang.cant_teleport_warning=§4 Nem lehet teleportálni az Auto-Minerbe, nem biztonságos hely.
+
+acm.vxl_auto.pack_name=§2 Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Egy autonóm robottárs a bányászat és az építőipar segítésére.
+acm.vxl_auto.allow_teleport=Engedélyezze a játékosoknak, hogy teleportáljanak az Auto-Minershez
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Figyelem!§r
+acm.vxl_auto.guide.warn_body=Az Auto-Bányászok ketyegő entitások. Ha túl sok van a világon, az késést vagy egyéb teljesítményproblémákat okozhat.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Az Auto-Miner egy összetett gép, számos funkcióval.
+acm.vxl_auto.guide.toggle_engines=- Kapcsolja át a motorjait §2on§r és §4off§r §3 interakciós§r segítségével.
+acm.vxl_auto.guide.toggle_rotation=- Váltsd át a forgását §3sneak-interacting§r-rel.
+acm.vxl_auto.guide.change_color=- Változtasd meg a színét úgy, hogy §3 interakcióba lépsz vele festékkel.
+acm.vxl_auto.guide.item_collection=- Engedélyezze a cikkgyűjtő módot úgy, hogy §3 interakcióba lép§r vele egy garat segítségével.
+acm.vxl_auto.guide.increase_speed=- Növelje a sebességét úgy, hogy §3 interakcióba lép§r magasabb szintű érctömbök használatával.
+acm.vxl_auto.guide.tiers=§4Iron (Alapértelmezett), §6Réz (Tier 2), §2Arany (Tier 3), §3Diamond (Tier 4), §5Netherite (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Tétel-Pump§r
+acm.vxl_auto.guide.pump_description=Az Item-Pump csatlakoztatható a nem irányított Auto-Bányászokhoz, amelyek a tárgyszivattyút elhelyező játékos tulajdonában vannak.
+acm.vxl_auto.guide.connection_options=Az Item-Pump csatlakozási lehetőségeinek eléréséhez lépjen kapcsolatba az elhelyezett Item-Pump-pal.
+acm.vxl_auto.guide.connection_menu=Ezzel megnyílik egy menü, amely lehetővé teszi a garattal felszerelt Auto-Bányászok kiválasztását, irányítását és megszüntetését a kiválasztott cikk-szivattyúhoz.
+acm.vxl_auto.guide.inventory_drain=Ezután az összes irányított Auto-Miner megkezdi a készleteinek leürítését a csatlakoztatott cikk-szivattyúba.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=A kiegészítő újdonsága, hogy az Auto-Miner Manager elem nagyobb irányítást biztosít az Auto-Minerek felett.
+acm.vxl_auto.guide.pilot_header=§l§6 Pilóta:§r
+acm.vxl_auto.guide.pilot_controls=- A játékosok most már alapvető kezelőszervekkel is pilotálhatják Auto-Minereiket.
+acm.vxl_auto.guide.pilot_controls_details=- Forduljon jobbra, forduljon balra, indítsa be a motort és állítsa le a motort.
+acm.vxl_auto.guide.pilot_mode=- Pilóta módban a lejátszó kamerája a kiválasztott Auto-Miner nézetre lesz állítva.
+acm.vxl_auto.guide.recall_header=§l§4 Visszahívás:§r
+acm.vxl_auto.guide.recall=- Ha megnyomja, a kiválasztott Auto-Miner és mellékletei visszakerülnek a lejátszó helyére.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportálás ide:§r
+acm.vxl_auto.guide.teleport_to=- Ha engedélyezve van, a játékosok teleportálhatnak a kiválasztott Auto-Miner helyére.
+acm.vxl_auto.guide.return_prompt=- A teleportálás után felkéri a játékost, hogy visszatérjen a teleportálás előtti utolsó ismert helyére.
+
+

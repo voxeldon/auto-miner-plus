@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Punainen Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Keltainen Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Itsenäinen robottikumppani kaivostyössä ja rakentamisessa.
-acm.vxl_auto.allow_teleport=Salli pelaajien teleportata Auto-Minersiin
-
 vxl_auto.detachment_warning=ei ole enää liitetty an
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Valitse Auto-Miner
 vxl_auto.interface.button_back=Takaisin
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Takaisin
 vxl_auto.interface.button_route=§2Reitti pumppuun
 vxl_auto.interface.button_unroute=§4Poista reititys pumpusta
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Virhe Auto-Minerin luomisessa
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Päivitys varustettu.
 vxl_auto.common_lang.already_equipped=Tämä päivitys on jo varustettu.
 vxl_auto.common_lang.item_pump=Tuote-pumppu
 vxl_auto.common_lang.cant_teleport_warning=§4Ei voi teleportoida Auto-Mineriin, vaarallinen sijainti.
+
+acm.vxl_auto.pack_name=§2Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Itsenäinen robottikumppani kaivostyössä ja rakentamisessa.
+acm.vxl_auto.allow_teleport=Salli pelaajien teleportata Auto-Minersiin
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Varoitus!§r
+acm.vxl_auto.guide.warn_body=Auto-Miners ovat tikittäviä kokonaisuuksia. Jos niitä on liikaa maailmassa, se voi aiheuttaa viivettä tai muita suorituskykyongelmia.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner on monimutkainen kone, jossa on useita ominaisuuksia.
+acm.vxl_auto.guide.toggle_engines=- Kytke sen moottorit §2on§r ja §4off§r vuorovaikutuksessa §3§r sen kanssa.
+acm.vxl_auto.guide.toggle_rotation=- Vaihda sen kiertoa §3sneak-interacting§r sen kanssa.
+acm.vxl_auto.guide.change_color=- Muuta sen väriä §3vuorovaikuttamalla§r sen kanssa väriaineen avulla.
+acm.vxl_auto.guide.item_collection=- Ota sen tavarankeräystila käyttöön ottamalla §3vuorovaikutus§r sen kanssa suppilon avulla.
+acm.vxl_auto.guide.increase_speed=- Lisää sen nopeutta §3vuorovaikutuksella§r sen kanssa käyttämällä korkeamman tason malmilohkoja.
+acm.vxl_auto.guide.tiers=§4Rauta (oletus), §6Kupari (Tier 2), §2Gold (Tier 3), §3Timantti (Tier 4), §5Netherite (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Tuote-Pump§r
+acm.vxl_auto.guide.pump_description=Tuotepumppu voidaan liittää reitittämättömiin Auto-Minereihin, jotka ovat esinepumpun sijoittaneen pelaajan omistamia.
+acm.vxl_auto.guide.connection_options=Pääset Item-Pumpin liitäntävaihtoehtoihin olemalla vuorovaikutuksessa asetetun tuotepumpun kanssa.
+acm.vxl_auto.guide.connection_menu=Tämä avaa valikon, jonka avulla voit valita, reitittää ja purkaa syöttösuppilolla varustettuja Auto-Minereita valittuun tuotepumppuun.
+acm.vxl_auto.guide.inventory_drain=Kaikki ohjatut Auto-Miners alkavat sitten tyhjentää varastonsa yhdistettyyn tuotepumppuun.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=Uusi lisäosa, Auto-Miner Manager -kohde tarjoaa paremman hallinnan Auto-Minereillesi.
+acm.vxl_auto.guide.pilot_header=§l§6 Pilotti:§r
+acm.vxl_auto.guide.pilot_controls=- Pelaajat voivat nyt pilotoida Auto-Minersiä perusohjaimilla.
+acm.vxl_auto.guide.pilot_controls_details=- Käänny oikealle, käänny vasemmalle, käynnistä moottori ja pysäytä moottori.
+acm.vxl_auto.guide.pilot_mode=- Pilottitilassa soittimen kamera asetetaan valittuun Auto-Miner -näkymään.
+acm.vxl_auto.guide.recall_header=§l§4 Muista: §r
+acm.vxl_auto.guide.recall=- Kun tätä painetaan, valittu Auto-Miner ja sen liitteet palautetaan soittimen sijaintiin.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportti osoitteeseen:§r
+acm.vxl_auto.guide.teleport_to=- Kun tämä on käytössä, pelaajat voivat teleportoida valittuun Auto-Minerin sijaintiin.
+acm.vxl_auto.guide.return_prompt=- Teleportoinnin jälkeen se kehottaa pelaajaa palaamaan viimeiseen tunnettuun sijaintiinsa ennen teleporttia.
+
+

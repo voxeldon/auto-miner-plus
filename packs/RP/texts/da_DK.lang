@@ -12,7 +12,7 @@ item.vxl_auto:tool=Auto-Miner Manager
 
 item.vxl_auto:auto_miner_placer_default=Auto-miner
 item.vxl_auto:auto_miner_placer_black=Sort Auto-Miner
-item.vxl_auto:auto_miner_placer_blue=Blå Auto-Miner
+item.vxl_auto:auto_miner_placer_blue=Blå Auto-miner
 item.vxl_auto:auto_miner_placer_brown=Brun Auto-Miner
 item.vxl_auto:auto_miner_placer_cyan=Cyan Auto-miner
 item.vxl_auto:auto_miner_placer_green=Grøn Auto-miner
@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Rød Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Gul Auto-miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=En autonom robot-ledsager til at hjælpe med minedrift og konstruktion.
-acm.vxl_auto.allow_teleport=Tillad spillere at teleportere til Auto-Miners
-
 vxl_auto.detachment_warning=er ikke længere knyttet til en
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Vælg en Auto-Miner
 vxl_auto.interface.button_back=Tilbage
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Tilbage
 vxl_auto.interface.button_route=§2 Rute til pumpe
 vxl_auto.interface.button_unroute=§4Fjern rute fra pumpe
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-miner
 vxl_auto.common_lang.spawn_error=Fejl under gydning af Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Opgradering udstyret.
 vxl_auto.common_lang.already_equipped=Denne opgradering er allerede udstyret.
 vxl_auto.common_lang.item_pump=Vare-Pumpe
 vxl_auto.common_lang.cant_teleport_warning=§4Kan ikke teleportere til Auto-Miner, usikker placering.
+
+acm.vxl_auto.pack_name=§2Auto-miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=En autonom robot-ledsager til at hjælpe med minedrift og konstruktion.
+acm.vxl_auto.allow_teleport=Tillad spillere at teleportere til Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Advarsel!§r
+acm.vxl_auto.guide.warn_body=Auto-minere er tikkende enheder. At have for mange i en verden kan forårsage forsinkelse eller andre præstationsproblemer.
+acm.vxl_auto.guide.a_miner_header=§l§2Autominer§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner er en kompleks maskine med en række funktioner.
+acm.vxl_auto.guide.toggle_engines=- Skift dens motorer §2on§r og §4off§r ved at §3interagere§r med den.
+acm.vxl_auto.guide.toggle_rotation=- Skift dens rotation ved at §3sneak-interagere§r med den.
+acm.vxl_auto.guide.change_color=- Skift dens farve ved at §3interagere§r med den ved hjælp af farvestof.
+acm.vxl_auto.guide.item_collection=- Aktiver dens vareindsamlingstilstand ved at §3interagere§r med den ved hjælp af en tragt.
+acm.vxl_auto.guide.increase_speed=- Øg dens hastighed ved at §3interagere§r med den ved at bruge malmblokke på højere niveau.
+acm.vxl_auto.guide.tiers=§4Jern (standard), §6Kobber (Tier 2), §2Guld (Tier 3), §3Diamond (Tier 4), §5Netherite (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Vare-Pumpe§r
+acm.vxl_auto.guide.pump_description=Genstandspumpen kan forbindes til ikke-rutede autominere, der ejes af den spiller, der placerede varepumpen.
+acm.vxl_auto.guide.connection_options=For at få adgang til Item-Pumpens tilslutningsmuligheder, interager med den placerede Item-Pump.
+acm.vxl_auto.guide.connection_menu=Dette åbner en menu, der giver dig mulighed for at vælge, dirigere og fjerne tragtudstyrede autominere til den valgte varepumpe.
+acm.vxl_auto.guide.inventory_drain=Alle rutede autominere vil derefter begynde at dræne deres beholdninger til den tilsluttede varepumpe.
+acm.vxl_auto.guide.tool_header=§l§5Autominerleder§r
+acm.vxl_auto.guide.tool_description=Ny til tilføjelsen, Auto-Miner Manager-elementet giver større kontrol over dine Auto-Miners.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Spillere kan nu styre deres Auto-Miners med grundlæggende kontroller.
+acm.vxl_auto.guide.pilot_controls_details=- Drej til højre, Drej til venstre, Start motor og stop motor.
+acm.vxl_auto.guide.pilot_mode=- Mens den er i pilottilstand, indstilles afspillerens kamera til den valgte Auto-Miners visning.
+acm.vxl_auto.guide.recall_header=§l§4Tilkaldelse:§r
+acm.vxl_auto.guide.recall=- Når der trykkes på, vil den valgte Auto-Miner og dens vedhæftede filer blive returneret til spillerens placering.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleporter til:§r
+acm.vxl_auto.guide.teleport_to=- Når det er aktiveret, kan spillere teleportere til den valgte Auto-Miners placering.
+acm.vxl_auto.guide.return_prompt=- Efter teleportering vil det bede spilleren om at vende tilbage til deres sidst kendte placering før teleporteringen.
+
+

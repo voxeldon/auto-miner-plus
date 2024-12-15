@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Penambang Otomatis Merah
 item.vxl_auto:auto_miner_placer_yellow=Penambang Otomatis Kuning
 item.vxl_auto:auto_miner_placer_rainbow=Penambang Otomatis Pelangi
 
-acm.vxl_auto.pack_name=Penambang Otomatis
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Pendamping robot otonom untuk membantu penambangan dan konstruksi.
-acm.vxl_auto.allow_teleport=Izinkan pemain untuk berteleportasi ke Auto-Miners
-
 vxl_auto.detachment_warning=tidak lagi melekat pada sebuah
-
 vxl_auto.interface.home_title=Manajer Penambang Otomatis
 vxl_auto.interface.home_body=Pilih Penambang Otomatis
 vxl_auto.interface.button_back=Kembali
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Kembali
 vxl_auto.interface.button_route=§2Rute Ke Pompa
 vxl_auto.interface.button_unroute=§4Batalkan Rute Dari Pompa
 
-
 vxl_auto.common_lang.plural='S
 vxl_auto.common_lang.auto_miner=Penambang Otomatis
 vxl_auto.common_lang.spawn_error=Terjadi kesalahan saat memunculkan Penambang Otomatis
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Dilengkapi peningkatan.
 vxl_auto.common_lang.already_equipped=Peningkatan ini sudah dilengkapi.
 vxl_auto.common_lang.item_pump=Item-Pompa
 vxl_auto.common_lang.cant_teleport_warning=§4Tidak dapat berteleportasi ke Auto-Miner, Lokasi tidak aman.
+
+acm.vxl_auto.pack_name=§2Penambang Otomatis
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Pendamping robot otonom untuk membantu penambangan dan konstruksi.
+acm.vxl_auto.allow_teleport=Izinkan pemain untuk berteleportasi ke Auto-Miners
+
+acm.vxl_auto.guide.title=§l§6Panduan Penambang Otomatis!§r
+acm.vxl_auto.guide.warn_header=§l§4Peringatan!§r
+acm.vxl_auto.guide.warn_body=Penambang Otomatis adalah entitas yang terus berdetak. Memiliki terlalu banyak dalam satu dunia dapat menyebabkan kelambatan atau masalah kinerja lainnya.
+acm.vxl_auto.guide.a_miner_header=§l§2Penambang Otomatis§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner adalah mesin kompleks dengan beragam fitur.
+acm.vxl_auto.guide.toggle_engines=- Matikan mesinnya §2on§r dan §4off§r dengan §3berinteraksi§r dengannya.
+acm.vxl_auto.guide.toggle_rotation=- Alihkan rotasinya dengan §3berinteraksi secara diam-diam§r dengannya.
+acm.vxl_auto.guide.change_color=- Ubah warnanya dengan §3berinteraksi§r dengannya menggunakan pewarna.
+acm.vxl_auto.guide.item_collection=- Aktifkan mode pengumpulan item dengan berinteraksi dengannya menggunakan hopper.
+acm.vxl_auto.guide.increase_speed=- Tingkatkan kecepatannya dengan §3berinteraksi§r dengannya menggunakan blok bijih tingkat tinggi.
+acm.vxl_auto.guide.tiers=§4Besi (Default), §6Tembaga (Tingkat 2), §2Emas (Tingkat 3), §3Berlian (Tingkat 4), §5Netherite (Tingkat 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Item-Pompa§r
+acm.vxl_auto.guide.pump_description=Item-Pump dapat dihubungkan ke Auto-Miners yang tidak dirutekan milik pemain yang menempatkan Item-Pump.
+acm.vxl_auto.guide.connection_options=Untuk mengakses opsi koneksi Item-Pump, berinteraksilah dengan Item-Pump yang ditempatkan.
+acm.vxl_auto.guide.connection_menu=Ini akan membuka menu yang memungkinkan Anda memilih, merutekan, dan membatalkan rute Penambang Otomatis yang dilengkapi hopper ke Pompa Item yang dipilih.
+acm.vxl_auto.guide.inventory_drain=Semua Penambang Otomatis yang dirutekan kemudian akan mulai mengalirkan inventaris mereka ke Item-Pump yang terhubung.
+acm.vxl_auto.guide.tool_header=§l§5Manajer Penambang Otomatis§r
+acm.vxl_auto.guide.tool_description=Yang baru dalam addon ini, item Manajer Penambang Otomatis memberikan kontrol lebih besar atas Penambang Otomatis Anda.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Pemain sekarang dapat mengemudikan Penambang Otomatis mereka dengan kontrol dasar.
+acm.vxl_auto.guide.pilot_controls_details=- Belok Kanan, Belok Kiri, Nyalakan Mesin, & Matikan Mesin.
+acm.vxl_auto.guide.pilot_mode=- Saat dalam mode percontohan, kamera pemain akan diatur ke tampilan Penambang Otomatis yang dipilih.
+acm.vxl_auto.guide.recall_header=§l§4Ingat:§r
+acm.vxl_auto.guide.recall=- Saat ditekan, Auto-Miner yang dipilih dan lampirannya akan dikembalikan ke lokasi pemain.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportasi Ke:§r
+acm.vxl_auto.guide.teleport_to=- Saat diaktifkan, pemain dapat berteleportasi ke lokasi Auto-Miner yang dipilih.
+acm.vxl_auto.guide.return_prompt=- Setelah melakukan teleportasi, pemain akan diberi opsi untuk kembali ke lokasi terakhir yang diketahui sebelum melakukan teleportasi.
+
+

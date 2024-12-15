@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Červený Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Žltý Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Autonómny robotický spoločník, ktorý pomáha pri ťažbe a stavbe.
-acm.vxl_auto.allow_teleport=Umožnite hráčom teleportovať sa do Auto-Baníkov
-
 vxl_auto.detachment_warning=už nie je pripojený k an
-
 vxl_auto.interface.home_title=Auto-Miner Manager
 vxl_auto.interface.home_body=Vyberte Auto-Miner
 vxl_auto.interface.button_back=Späť
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Späť
 vxl_auto.interface.button_route=§2 Cesta k čerpadlu
 vxl_auto.interface.button_unroute=§4Uvoľnite cestu z pumpy
 
-
 vxl_auto.common_lang.plural='s
 vxl_auto.common_lang.auto_miner=Auto-Miner
 vxl_auto.common_lang.spawn_error=Chyba pri vytváraní funkcie Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Upgrade vybavený.
 vxl_auto.common_lang.already_equipped=Tento upgrade je už vybavený.
 vxl_auto.common_lang.item_pump=Položka-Pumpa
 vxl_auto.common_lang.cant_teleport_warning=§4Nedá sa teleportovať do Auto-Mineru, Nebezpečné miesto.
+
+acm.vxl_auto.pack_name=§2 Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Autonómny robotický spoločník, ktorý pomáha pri ťažbe a stavbe.
+acm.vxl_auto.allow_teleport=Umožnite hráčom teleportovať sa do Auto-Baníkov
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner Guide!§r
+acm.vxl_auto.guide.warn_header=§l§4Pozor!§r
+acm.vxl_auto.guide.warn_body=Auto-Baníci sú tikajúce entity. Príliš veľa vo svete môže spôsobiť oneskorenie alebo iné problémy s výkonom.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner je komplexný stroj s rôznymi funkciami.
+acm.vxl_auto.guide.toggle_engines=- Prepnite jeho motory §2on§r a §4off§r §3interakciou§r s ním.
+acm.vxl_auto.guide.toggle_rotation=- Prepínajte jeho otáčanie pomocou §3sneak-interacting§r s ním.
+acm.vxl_auto.guide.change_color=- Zmeňte jeho farbu §3 interakciou§r s ním pomocou farbiva.
+acm.vxl_auto.guide.item_collection=- Aktivujte jeho režim zberu položiek §3interakciou§r s ním pomocou násypky.
+acm.vxl_auto.guide.increase_speed=- Zvýšte jeho rýchlosť §3interakciou§r s použitím blokov rudy vyššej úrovne.
+acm.vxl_auto.guide.tiers=§4Železo (predvolené), §6Meď (Tier 2), §2Zlato (Tier 3), §3Diamant (Tier 4), §5Netherit (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Položka-Pump§r
+acm.vxl_auto.guide.pump_description=Item-Pump môže byť prepojený s necestovanými Auto-minermi vlastnenými hráčom, ktorý Item-Pump umiestnil.
+acm.vxl_auto.guide.connection_options=Pre prístup k možnostiam pripojenia Item-Pump interagujte s umiestnenou Item-Pump.
+acm.vxl_auto.guide.connection_menu=Tým sa otvorí ponuka, ktorá vám umožní vybrať, nasmerovať a zrušiť smerovanie automatických baníkov vybavených zásobníkom k vybranému čerpadlu položiek.
+acm.vxl_auto.guide.inventory_drain=Všetci smerovaní Auto-Mineri potom začnú odčerpávať svoje zásoby do pripojeného Item-Pumpa.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner Manager§r
+acm.vxl_auto.guide.tool_description=Novinkou v doplnku je položka Auto-Miner Manager, ktorá poskytuje väčšiu kontrolu nad vašimi Auto-Minermi.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Hráči teraz môžu pilotovať svoje Auto-Baníky so základnými ovládacími prvkami.
+acm.vxl_auto.guide.pilot_controls_details=- Odbočte doprava, odbočte doľava, naštartujte motor a zastavte motor.
+acm.vxl_auto.guide.pilot_mode=- V pilotnom režime bude kamera hráča nastavená na zvolený pohľad Auto-Minera.
+acm.vxl_auto.guide.recall_header=§l§4Odvolanie:§r
+acm.vxl_auto.guide.recall=- Po stlačení sa vybraný Auto-Miner a jeho prílohy vrátia na miesto hráča.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportovať Komu:§r
+acm.vxl_auto.guide.teleport_to=- Keď je táto možnosť povolená, hráči sa môžu teleportovať na vybrané miesto Auto-Baníka.
+acm.vxl_auto.guide.return_prompt=- Po teleportovaní vyzve hráča, aby sa vrátil na posledné známe miesto pred teleportom.
+
+

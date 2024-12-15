@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Roter Auto-Miner
 item.vxl_auto:auto_miner_placer_yellow=Gelber Auto-Miner
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Auto-Miner
 
-acm.vxl_auto.pack_name=Auto-Miner
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Ein autonomer Roboterbegleiter zur Unterstützung im Bergbau und im Bauwesen.
-acm.vxl_auto.allow_teleport=Erlauben Sie Spielern, sich zu Auto-Minern zu teleportieren
-
 vxl_auto.detachment_warning=ist nicht mehr an eine gebunden
-
 vxl_auto.interface.home_title=Auto-Miner-Manager
 vxl_auto.interface.home_body=Wählen Sie einen Auto-Miner aus
 vxl_auto.interface.button_back=Zurück
@@ -54,13 +48,12 @@ vxl_auto.interface.stop_build_bridge=Stoppen Sie den Bridge-Chip
 
 vxl_auto.interface.home_title_pump=Item-Pump-Schnittstelle
 vxl_auto.interface.home_body_pump=Verbindungsoptionen
-vxl_auto.interface.home_body_no_entry_pump=§4Keine mit Hopper ausgerüsteten Auto-Miner gefunden.
+vxl_auto.interface.home_body_no_entry_pump=§4Keine mit Hopper ausgestatteten Auto-Miner gefunden.
 vxl_auto.interface.selected_auto_body_connected=Verbunden
 vxl_auto.interface.selected_auto_body_route=Route
 vxl_auto.interface.button_back_pump=Zurück
 vxl_auto.interface.button_route=§2Weg zur Pumpe
-vxl_auto.interface.button_unroute=§4Entfernen Sie die Route von der Pumpe
-
+vxl_auto.interface.button_unroute=§4Weg von der Pumpe aufheben
 
 vxl_auto.common_lang.plural='S
 vxl_auto.common_lang.auto_miner=Auto-Miner
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Upgrade ausgestattet.
 vxl_auto.common_lang.already_equipped=Dieses Upgrade ist bereits ausgestattet.
 vxl_auto.common_lang.item_pump=Item-Pumpe
 vxl_auto.common_lang.cant_teleport_warning=§4Kann nicht zum Auto-Miner teleportiert werden, unsicherer Ort.
+
+acm.vxl_auto.pack_name=§2Auto-Miner
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Ein autonomer Roboterbegleiter zur Unterstützung im Bergbau und im Bauwesen.
+acm.vxl_auto.allow_teleport=Ermöglichen Sie Spielern, sich zu Auto-Minern zu teleportieren
+
+acm.vxl_auto.guide.title=§l§6Auto-Miner-Anleitung!§r
+acm.vxl_auto.guide.warn_header=§l§4Achtung!§r
+acm.vxl_auto.guide.warn_body=Auto-Miner sind tickende Einheiten. Zu viele auf einer Welt können zu Verzögerungen oder anderen Leistungsproblemen führen.
+acm.vxl_auto.guide.a_miner_header=§l§2Auto-Miner§r
+acm.vxl_auto.guide.a_miner_description=Der Auto-Miner ist eine komplexe Maschine mit einer Vielzahl von Funktionen.
+acm.vxl_auto.guide.toggle_engines=- Schalten Sie die Motoren §2ein§r und §4aus§r um, indem Sie §3mit ihm interagieren§r.
+acm.vxl_auto.guide.toggle_rotation=- Schalten Sie seine Drehung um, indem Sie §3schleichen§r mit ihm interagieren.
+acm.vxl_auto.guide.change_color=- Ändere seine Farbe, indem du §3mit ihm interagierst§r, indem du Farbstoff verwendest.
+acm.vxl_auto.guide.item_collection=- Aktivieren Sie den Sammelmodus für Gegenstände, indem Sie §3über einen Hopper mit ihm interagieren§r.
+acm.vxl_auto.guide.increase_speed=- Erhöhen Sie seine Geschwindigkeit, indem Sie mit höherstufigen Erzblöcken §3interagieren§r.
+acm.vxl_auto.guide.tiers=§4Eisen (Standard), §6Kupfer (Stufe 2), §2Gold (Stufe 3), §3Diamant (Stufe 4), §5Netherit (Stufe 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Artikel-Pumpe§r
+acm.vxl_auto.guide.pump_description=Die Item-Pumpe kann mit nicht gerouteten Auto-Minern verbunden werden, die dem Spieler gehören, der die Item-Pumpe platziert hat.
+acm.vxl_auto.guide.connection_options=Um auf die Verbindungsoptionen der Item-Pump zuzugreifen, interagieren Sie mit der platzierten Item-Pump.
+acm.vxl_auto.guide.connection_menu=Dadurch wird ein Menü geöffnet, in dem Sie mit Trichtern ausgerüstete Auto-Miner auswählen, sie zur ausgewählten Gegenstandspumpe leiten und ihre Route aufheben können.
+acm.vxl_auto.guide.inventory_drain=Alle gerouteten Auto-Miner beginnen dann damit, ihre Bestände an die angeschlossene Item-Pump abzulassen.
+acm.vxl_auto.guide.tool_header=§l§5Auto-Miner-Manager§r
+acm.vxl_auto.guide.tool_description=Neu im Add-on ist der Auto-Miner-Manager, der eine bessere Kontrolle über Ihre Auto-Miner bietet.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=– Spieler können ihre Auto-Miner jetzt mit einfacher Steuerung steuern.
+acm.vxl_auto.guide.pilot_controls_details=- Rechts abbiegen, links abbiegen, Motor starten und Motor stoppen.
+acm.vxl_auto.guide.pilot_mode=- Im Pilotmodus wird die Kamera des Spielers auf die ausgewählte Auto-Miner-Ansicht eingestellt.
+acm.vxl_auto.guide.recall_header=§l§4Rückruf:§r
+acm.vxl_auto.guide.recall=- Wenn Sie darauf klicken, werden der ausgewählte Auto-Miner und seine Anhänge an den Standort des Spielers zurückgegeben.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleportieren zu:§r
+acm.vxl_auto.guide.teleport_to=– Wenn diese Option aktiviert ist, können sich Spieler zum Standort des ausgewählten Auto-Miners teleportieren.
+acm.vxl_auto.guide.return_prompt=- Nach dem Teleportieren wird der Spieler aufgefordert, zu seinem letzten bekannten Standort vor dem Teleportieren zurückzukehren.
+
+

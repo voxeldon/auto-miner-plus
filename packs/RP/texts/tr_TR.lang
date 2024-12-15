@@ -10,7 +10,7 @@ entity.vxl_auto:entity_spawner.name=Otomatik Madenci Yumurtlama Yeri
 
 item.vxl_auto:tool=Otomatik Madencilik Yöneticisi
 
-item.vxl_auto:auto_miner_placer_default=Otomatik Madencilik
+item.vxl_auto:auto_miner_placer_default=Otomatik Madenci
 item.vxl_auto:auto_miner_placer_black=Siyah Otomatik Madenci
 item.vxl_auto:auto_miner_placer_blue=Mavi Otomatik Madenci
 item.vxl_auto:auto_miner_placer_brown=Kahverengi Otomatik Madenci
@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=Kırmızı Otomatik Madenci
 item.vxl_auto:auto_miner_placer_yellow=Sarı Otomatik Madenci
 item.vxl_auto:auto_miner_placer_rainbow=Rainbow Otomatik Madenci
 
-acm.vxl_auto.pack_name=Otomatik Madenci
-acm.vxl_auto.author_name=Donthedev
-acm.vxl_auto.description=Madencilik ve inşaat işlerine yardımcı olacak otonom bir robot arkadaşı.
-acm.vxl_auto.allow_teleport=Oyuncuların Auto-Madenciler'e ışınlanmasına izin ver
-
 vxl_auto.detachment_warning=artık bir şeye bağlı değil
-
 vxl_auto.interface.home_title=Otomatik Madencilik Yöneticisi
 vxl_auto.interface.home_body=Bir Otomatik Madenci Seçin
 vxl_auto.interface.button_back=Geri
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=Geri
 vxl_auto.interface.button_route=§2Pompaya Giden Yol
 vxl_auto.interface.button_unroute=§4Pompadan Rotayı Kaldırma
 
-
 vxl_auto.common_lang.plural='S
 vxl_auto.common_lang.auto_miner=Otomatik Madenci
 vxl_auto.common_lang.spawn_error=Auto-Miner oluşturulurken hata oluştu
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=Donanımlı yükseltme.
 vxl_auto.common_lang.already_equipped=Bu yükseltme zaten donatılmıştır.
 vxl_auto.common_lang.item_pump=Ürün-Pompa
 vxl_auto.common_lang.cant_teleport_warning=§4Auto-Miner'a ışınlanamıyor, Güvenli olmayan konum.
+
+acm.vxl_auto.pack_name=§2Otomatik Madenci
+acm.vxl_auto.author_name=Donthedev
+acm.vxl_auto.description=Madencilik ve inşaat işlerine yardımcı olacak otonom bir robot arkadaşı.
+acm.vxl_auto.allow_teleport=Oyuncuların Auto-Madenciler'e ışınlanmasına izin ver
+
+acm.vxl_auto.guide.title=§l§6Otomatik Madenci Kılavuzu!§r
+acm.vxl_auto.guide.warn_header=§l§4Uyarı!§r
+acm.vxl_auto.guide.warn_body=Otomatik Madenciler, işleyen varlıklardır. Dünyada çok fazla sayıda olması gecikmeye veya diğer performans sorunlarına neden olabilir.
+acm.vxl_auto.guide.a_miner_header=§l§2Otomatik Madenci§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner, çeşitli özelliklere sahip karmaşık bir makinedir.
+acm.vxl_auto.guide.toggle_engines=- Onunla §3etkileşimde bulunarak motorlarını §2açık§r ve §4kapalı§r arasında değiştirin.
+acm.vxl_auto.guide.toggle_rotation=- Onunla §3sneak-interacting§r yaparak dönüşünü değiştirin.
+acm.vxl_auto.guide.change_color=- Boya kullanarak onunla etkileşime girerek rengini değiştirin.
+acm.vxl_auto.guide.item_collection=- Bir hazne kullanarak onunla §3etkileşimde bulunarak öğe toplama modunu etkinleştirin.
+acm.vxl_auto.guide.increase_speed=- Daha yüksek seviyeli cevher bloklarını kullanarak onunla etkileşim kurarak hızını artırın.
+acm.vxl_auto.guide.tiers=§4Demir (Varsayılan), §6Bakır (Kademe 2), §2Gold (Kademe 3), §3Diamond (Kademe 4), §5Netherite (Kademe 5)§r
+acm.vxl_auto.guide.pump_header=§l§3Item-Pompa§r
+acm.vxl_auto.guide.pump_description=Item-Pump, Item-Pump'ı yerleştiren oyuncunun sahip olduğu yönlendirilmemiş Auto-Madencilere bağlanabilir.
+acm.vxl_auto.guide.connection_options=Item-Pump'ın bağlantı seçeneklerine erişmek için yerleştirilen Item-Pump ile etkileşime geçin.
+acm.vxl_auto.guide.connection_menu=Bu, hazne donanımlı Otomatik Madencileri seçmenize, yönlendirmenize ve seçilen Öğe Pompasına yönlendirmenizi kaldırmanıza olanak tanıyan bir menü açacaktır.
+acm.vxl_auto.guide.inventory_drain=Yönlendirilen tüm Auto-Madenciler daha sonra envanterlerini bağlı olan Item-Pump'a boşaltmaya başlayacaktır.
+acm.vxl_auto.guide.tool_header=§l§5Otomatik Madencilik Yöneticisi§r
+acm.vxl_auto.guide.tool_description=Eklentide yeni olan Otomatik Madencilik Yöneticisi öğesi, Otomatik Madencileriniz üzerinde daha fazla kontrol sağlar.
+acm.vxl_auto.guide.pilot_header=§l§6Pilot:§r
+acm.vxl_auto.guide.pilot_controls=- Oyuncular artık Auto-Madencilerini temel kontrollerle yönetebilirler.
+acm.vxl_auto.guide.pilot_controls_details=- Sağa Dönün, Sola Dönün, Motoru Çalıştırın ve Motoru Durdurun.
+acm.vxl_auto.guide.pilot_mode=- Pilot modundayken oyuncunun kamerası seçilen Auto-Madencinin görünümüne ayarlanacaktır.
+acm.vxl_auto.guide.recall_header=§l§4Geri Çağırma:§r
+acm.vxl_auto.guide.recall=- Basıldığında, seçilen Otomatik Madenci ve eklentileri oyuncunun bulunduğu konuma geri dönecektir.
+acm.vxl_auto.guide.teleport_to_header=§l§2Teleport Hedefi:§r
+acm.vxl_auto.guide.teleport_to=- Etkinleştirildiğinde, oyuncular seçilen Otomatik Madencinin konumuna ışınlanabilir.
+acm.vxl_auto.guide.return_prompt=- Işınlandıktan sonra, oyuncuya ışınlanmadan önce bilinen son konumuna dönme seçeneği sunulacaktır.
+
+

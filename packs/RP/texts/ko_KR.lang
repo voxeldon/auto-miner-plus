@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=레드 자동 채굴기
 item.vxl_auto:auto_miner_placer_yellow=노란색 자동 채굴기
 item.vxl_auto:auto_miner_placer_rainbow=레인보우 자동 채굴기
 
-acm.vxl_auto.pack_name=자동 채굴기
-acm.vxl_auto.author_name=돈테데프
-acm.vxl_auto.description=광산 및 건설을 지원하는 자율 로봇 동반자입니다.
-acm.vxl_auto.allow_teleport=플레이어가 자동 채굴기로 순간이동할 수 있도록 허용
-
 vxl_auto.detachment_warning=더 이상 에 연결되어 있지 않습니다.
-
 vxl_auto.interface.home_title=자동 채굴 관리자
 vxl_auto.interface.home_body=자동 채굴기를 선택하세요
 vxl_auto.interface.button_back=뒤쪽에
@@ -45,7 +39,7 @@ vxl_auto.interface.selected_auto_miner_dimension_error=이 기능을 사용하�
 vxl_auto.interface.turn_right=우회전
 vxl_auto.interface.turn_left=좌회전
 vxl_auto.interface.stop=엔진 정지
-vxl_auto.interface.start=엔진 시작
+vxl_auto.interface.start=엔진 시동
 vxl_auto.interface.exit_camera=카메라 종료
 vxl_auto.interface.recall=상기하다
 vxl_auto.interface.teleport=텔레포트 대상
@@ -61,7 +55,6 @@ vxl_auto.interface.button_back_pump=뒤쪽에
 vxl_auto.interface.button_route=§2펌프로의 경로
 vxl_auto.interface.button_unroute=§4펌프에서 라우팅 해제
 
-
 vxl_auto.common_lang.plural='에스
 vxl_auto.common_lang.auto_miner=자동 채굴기
 vxl_auto.common_lang.spawn_error=자동 채굴기 생성 오류
@@ -72,3 +65,38 @@ vxl_auto.common_lang.upgrade_equipped=업그레이드 장착.
 vxl_auto.common_lang.already_equipped=이 업그레이드는 이미 장착되어 있습니다.
 vxl_auto.common_lang.item_pump=아이템-펌프
 vxl_auto.common_lang.cant_teleport_warning=§4자동 채굴기, 안전하지 않은 위치로 순간이동할 수 없습니다.
+
+acm.vxl_auto.pack_name=§2자동 채굴기
+acm.vxl_auto.author_name=돈테데프
+acm.vxl_auto.description=광산 및 건설을 지원하는 자율 로봇 동반자입니다.
+acm.vxl_auto.allow_teleport=플레이어가 자동 채굴기로 순간이동할 수 있도록 허용
+
+acm.vxl_auto.guide.title=§l§6자동 채굴 가이드!§r
+acm.vxl_auto.guide.warn_header=§l§4경고!§r
+acm.vxl_auto.guide.warn_body=자동 채굴자는 틱 엔터티입니다. 세상에 너무 많으면 지연이나 기타 성능 문제가 발생할 수 있습니다.
+acm.vxl_auto.guide.a_miner_header=§l§2자동 채굴기§r
+acm.vxl_auto.guide.a_miner_description=자동 채굴기는 다양한 기능을 갖춘 복잡한 기계입니다.
+acm.vxl_auto.guide.toggle_engines=- §3상호작용§r을 통해 엔진을 §2on§r 및 §4off§r로 전환합니다.
+acm.vxl_auto.guide.toggle_rotation=- §3몰래 상호작용§r을 통해 회전을 전환합니다.
+acm.vxl_auto.guide.change_color=- 염료를 사용하여 §3상호작용§r을 통해 색상을 변경합니다.
+acm.vxl_auto.guide.item_collection=- 호퍼를 사용하여 §3상호작용§r을 통해 아이템 수집 모드를 활성화합니다.
+acm.vxl_auto.guide.increase_speed=- 더 높은 등급의 광석 블록을 사용하여 §3상호작용§r을 통해 속도를 높이세요.
+acm.vxl_auto.guide.tiers=§4철(기본), §6구리(2단계), §2금(3단계), §3다이아몬드(4단계), §5네더라이트(5단계)§r
+acm.vxl_auto.guide.pump_header=§l§3아이템 펌프§r
+acm.vxl_auto.guide.pump_description=아이템 펌프는 아이템 펌프를 배치한 플레이어가 소유한 경로가 지정되지 않은 자동 채굴기에 연결될 수 있습니다.
+acm.vxl_auto.guide.connection_options=아이템 펌프의 연결 옵션에 접근하려면 배치된 아이템 펌프와 상호작용하세요.
+acm.vxl_auto.guide.connection_menu=그러면 호퍼가 장착된 자동 채굴기를 선택한 아이템 펌프로 선택, 경로 지정 및 경로 해제할 수 있는 메뉴가 열립니다.
+acm.vxl_auto.guide.inventory_drain=그러면 라우팅된 모든 자동 채굴자는 연결된 아이템 펌프로 재고를 배출하기 시작합니다.
+acm.vxl_auto.guide.tool_header=§l§5자동 채굴 관리자§r
+acm.vxl_auto.guide.tool_description=애드온의 새로운 기능인 자동 채굴 관리자(Auto-Miner Manager) 항목은 자동 채굴에 대한 더 강력한 제어 기능을 제공합니다.
+acm.vxl_auto.guide.pilot_header=§l§6파일럿:§r
+acm.vxl_auto.guide.pilot_controls=- 이제 플레이어는 기본 컨트롤로 자동 채굴기를 조종할 수 있습니다.
+acm.vxl_auto.guide.pilot_controls_details=- 우회전, 좌회전, 엔진 시동 및 엔진 정지.
+acm.vxl_auto.guide.pilot_mode=- 파일럿 모드에서는 플레이어의 카메라가 선택한 자동 채굴기의 화면으로 설정됩니다.
+acm.vxl_auto.guide.recall_header=§l§4회상:§r
+acm.vxl_auto.guide.recall=- 누르면 선택한 자동 채굴기와 부착물이 플레이어의 위치로 반환됩니다.
+acm.vxl_auto.guide.teleport_to_header=§l§2다음으로 순간이동:§r
+acm.vxl_auto.guide.teleport_to=- 활성화되면 플레이어는 선택한 자동 채굴기 위치로 순간이동할 수 있습니다.
+acm.vxl_auto.guide.return_prompt=- 순간이동 후에는 순간이동하기 전 마지막으로 알려진 위치로 돌아갈 수 있는 옵션이 플레이어에게 표시됩니다.
+
+

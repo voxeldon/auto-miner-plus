@@ -26,13 +26,7 @@ item.vxl_auto:auto_miner_placer_red=レッドオートマイナー
 item.vxl_auto:auto_miner_placer_yellow=黄色の自動採掘者
 item.vxl_auto:auto_miner_placer_rainbow=レインボーオートマイナー
 
-acm.vxl_auto.pack_name=オートマイニング
-acm.vxl_auto.author_name=ドンテデフ
-acm.vxl_auto.description=採掘や建設を支援する自律型ロボットコンパニオン。
-acm.vxl_auto.allow_teleport=プレイヤーが自動採掘者にテレポートできるようにする
-
 vxl_auto.detachment_warning=もう添付されていません
-
 vxl_auto.interface.home_title=オートマイナーマネージャー
 vxl_auto.interface.home_body=自動採掘ツールを選択してください
 vxl_auto.interface.button_back=戻る
@@ -61,14 +55,48 @@ vxl_auto.interface.button_back_pump=戻る
 vxl_auto.interface.button_route=§2ポンプへのルート
 vxl_auto.interface.button_unroute=§4ポンプからのルート解除
 
-
 vxl_auto.common_lang.plural=さんの
 vxl_auto.common_lang.auto_miner=オートマイニング
 vxl_auto.common_lang.spawn_error=Auto-Miner の生成エラー
 vxl_auto.common_lang.cant_dye_unique_skins=ユニークスキンは染色できません。
-vxl_auto.common_lang.already_this_color=AutoMinerはもうこの色です。
+vxl_auto.common_lang.already_this_color=Auto Minerはすでにこの色です。
 vxl_auto.common_lang.not_owner=あなたはこの自動採掘ツールを所有していません
 vxl_auto.common_lang.upgrade_equipped=アップグレード装備。
 vxl_auto.common_lang.already_equipped=このアップグレードはすでに装備されています。
 vxl_auto.common_lang.item_pump=アイテムポンプ
 vxl_auto.common_lang.cant_teleport_warning=§4オートマイナー、危険な場所にテレポートできません。
+
+acm.vxl_auto.pack_name=§2オートマイナー
+acm.vxl_auto.author_name=ドンテデフ
+acm.vxl_auto.description=採掘や建設を支援する自律型ロボットコンパニオン。
+acm.vxl_auto.allow_teleport=プレイヤーが自動採掘者にテレポートできるようにする
+
+acm.vxl_auto.guide.title=§l§6オートマイナーガイド!§r
+acm.vxl_auto.guide.warn_header=§l§4警告!§r
+acm.vxl_auto.guide.warn_body=自動採掘者は時を刻む存在です。ワールド内に多すぎると、遅延やその他のパフォーマンスの問題が発生する可能性があります。
+acm.vxl_auto.guide.a_miner_header=§l§2オートマイナー§r
+acm.vxl_auto.guide.a_miner_description=Auto-Miner は、さまざまな機能を備えた複雑なマシンです。
+acm.vxl_auto.guide.toggle_engines=- §3§r と相互作用することにより、エンジンを §2on§r と §4off§r に切り替えます。
+acm.vxl_auto.guide.toggle_rotation=- §3こっそり相互作用§r することで回転を切り替えます。
+acm.vxl_auto.guide.change_color=- 染料を使用して§3相互作用§r することで色を変更します。
+acm.vxl_auto.guide.item_collection=- ホッパーを使用して§3対話§r することで、アイテム収集モードを有効にします。
+acm.vxl_auto.guide.increase_speed=- より高い層の鉱石ブロックを使用して§3相互作用§r することで、速度を上げます。
+acm.vxl_auto.guide.tiers=§4鉄 (デフォルト)、§6銅 (Tier 2)、§2金 (Tier 3)、§3ダイヤモンド (Tier 4)、§5ネザライト (Tier 5)§r
+acm.vxl_auto.guide.pump_header=§l§3アイテムポンプ§r
+acm.vxl_auto.guide.pump_description=アイテムポンプは、アイテムポンプを配置したプレイヤーが所有する未配線のオートマイナーに接続できます。
+acm.vxl_auto.guide.connection_options=アイテムポンプの接続オプションにアクセスするには、配置されたアイテムポンプを操作します。
+acm.vxl_auto.guide.connection_menu=これにより、選択したアイテムポンプへのホッパー装備の自動採掘機を選択、ルート、およびルート解除できるメニューが開きます。
+acm.vxl_auto.guide.inventory_drain=ルーティングされたすべての自動採掘者は、接続されているアイテムポンプにインベントリを排出し始めます。
+acm.vxl_auto.guide.tool_header=§l§5自動採掘マネージャー§r
+acm.vxl_auto.guide.tool_description=アドオンに新しく追加された Auto-Miner Manager アイテムにより、Auto-Miner をより詳細に制御できるようになります。
+acm.vxl_auto.guide.pilot_header=§l§6パイロット:§r
+acm.vxl_auto.guide.pilot_controls=- プレイヤーは基本的なコントロールでオートマイナーを操縦できるようになりました。
+acm.vxl_auto.guide.pilot_controls_details=- 右折、左折、エンジン始動、エンジン停止。
+acm.vxl_auto.guide.pilot_mode=- パイロット モード中、プレイヤーのカメラは選択した Auto-Miner のビューに設定されます。
+acm.vxl_auto.guide.recall_header=§l§4思い出してください:§r
+acm.vxl_auto.guide.recall=- 押すと、選択したオートマイナーとその付属品がプレイヤーの位置に戻されます。
+acm.vxl_auto.guide.teleport_to_header=§l§2テレポート先:§r
+acm.vxl_auto.guide.teleport_to=- 有効にすると、プレイヤーは選択した Auto-Miner の場所にテレポートできます。
+acm.vxl_auto.guide.return_prompt=- テレポート後、テレポート前に最後に確認されていた場所に戻るオプションがプレイヤーに表示されます。
+
+
